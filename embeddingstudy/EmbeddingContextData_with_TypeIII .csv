@@ -1,0 +1,738 @@
+ID,Functionality,Naming_Convention,Code,Colour
+ADD-ADD,ADD,ADD,"int add(int a, int b) {
+    return a + b;
+}",Red
+FLOOP-FLOOP,FLOOP,FLOOP,"int sum_to_n(int n) {
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+    return sum;
+}",Yellow
+WLOOP-WLOOP,WLOOP,WLOOP,"void count_down(int n) {
+    while (n > 0) {
+        printf(""%d\n"", n);
+        n--;
+    }
+}",Green
+FIB-FIB,FIB,FIB,"int fibonacci(int n) {
+    if (n <= 1) return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}",Blue
+PRIME-PRIME,PRIME,PRIME,"int is_prime(int n) {
+    if (n <= 1) return 0;
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) return 0;
+    }
+    return 1;
+}",Orange
+FACT-FACT,FACT,FACT,"int factorial(int n) {
+    if (n == 0) return 1;
+    return n * factorial(n - 1);
+}",Purple
+SWAP-SWAP,SWAP,SWAP,"void swap(int* a, int* b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}",Black
+MAX-MAX,MAX,MAX,"int max(int a, int b) {
+    return (a > b) ? a : b;
+}",Lime
+MALLOC-MALLOC,MALLOC,MALLOC,"int* allocate_array(int n) {
+    int* arr = (int*)malloc(n * sizeof(int));
+    return arr;
+}",deepskyblue
+ADD-ADD-T3,ADD,ADD,"int add(int a, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = a + b;
+}
+    return result;
+}",Red
+ADD-FLOOP-T3,ADD,FLOOP,"int sum_to_n(int n, int i) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = n + i;
+}
+    return result;
+}",Red
+ADD-WLOOP-T3,ADD,WLOOP,"int count_down(int n, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = n + b;
+}
+    return result;
+}",Red
+ADD-FIB-T3,ADD,FIB,"int fibonacci(int a, int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = n + a;
+}
+    return result;
+}",Red
+ADD-PRIME-T3,ADD,PRIME,"int is_prime(int n, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = n + b;
+}
+    return result;
+}",Red
+ADD-FACT-T3,ADD,FACT,"int factorial(int a, int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = a + n;
+}
+    return result;
+}",Red
+ADD-SWAP-T3,ADD,SWAP,"int swap(int a, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = a + b;
+}
+    return result;
+}",Red
+ADD-MAX-T3,ADD,MAX,"int max(int a, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = a + b;
+}
+    return result;
+}",Red
+ADD-MALLOC-T3,ADD,MALLOC,"int allocate_array(int n, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = n + b;
+}
+    return result;
+}",Red
+FLOOP-FLOOP-T3,FLOOP,FLOOP,"int sum_to_n(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+    int result = sum;
+}
+    return result;
+}",Yellow
+FLOOP-ADD-T3,FLOOP,ADD,"int add(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int sum = 0;
+    for (int b = 1; b<= a; b++) {
+        sum += a;
+    }
+    int result = sum;
+}
+    return result;
+}",Yellow
+FLOOP-WLOOP-T3,FLOOP,WLOOP,"int count_down(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+    int result = sum;
+}
+    return result;
+}",Yellow
+FLOOP-FIB-T3,FLOOP,FIB,"int fibonacci(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+    int result = sum;
+}
+    return result;
+}",Yellow
+FLOOP-PRIME-T3,FLOOP,PRIME,"int is_prime(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+    int result = sum;
+}
+    return result;
+}",Yellow
+FLOOP-FACT-T3,FLOOP,FACT,"int factorial(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+    int result = sum;
+}
+    return result;
+}",Yellow
+FLOOP-SWAP-T3,FLOOP,SWAP,"int swap(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int sum = 0;
+    for (int b = 1; b<= a; b++) {
+        sum += a;
+    }
+    int result = sum;
+}
+    return result;
+}",Yellow
+FLOOP-MAX-T3,FLOOP,MAX,"int max(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+    int result = sum;
+}
+    return result;
+}",Yellow
+FLOOP-MALLOC-T3,FLOOP,MALLOC,"int allocate_array(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+    int result = sum;
+}
+    return result;
+}",Yellow
+WLOOP-WLOOP-T3,WLOOP,WLOOP,"void count_down(int n) {
+    int dummy = 0 + 0;
+    while (n > 0) {
+        printf(""%d\n"", n);
+        n--;
+    }
+}
+    return result;
+}",Green
+WLOOP-ADD-T3,WLOOP,ADD,"void add(int a) {
+    int dummy = 0 + 0;
+    while (a > 0) {
+        printf(""%d\a"", a);
+        a--;
+    }
+}
+    return result;
+}",Green
+WLOOP-FLOOP-T3,WLOOP,FLOOP,"void sum_to_n(int n) {
+    int dummy = 0 + 0;
+    while (n > 0) {
+        printf(""%d\n"", n);
+        n--;
+    }
+}
+    return result;
+}",Green
+WLOOP-FIB-T3,WLOOP,FIB,"void fibonacci(int n) {
+    int dummy = 0 + 0;
+    while (n > 0) {
+        printf(""%d\n"", n);
+        n--;
+    }
+}
+    return result;
+}",Green
+WLOOP-PRIME-T3,WLOOP,PRIME,"void is_prime(int n) {
+    int dummy = 0 + 0;
+    while (n > 0) {
+        printf(""%d\n"", n);
+        n--;
+    }
+}
+    return result;
+}",Green
+WLOOP-FACT-T3,WLOOP,FACT,"void factorial(int n) {
+    int dummy = 0 + 0;
+    while (n > 0) {
+        printf(""%d\n"", n);
+        n--;
+    }
+}
+    return result;
+}",Green
+WLOOP-SWAP-T3,WLOOP,SWAP,"void swap(int a) {
+    int dummy = 0 + 0;
+    while (a > 0) {
+        printf(""%d\a"", a);
+        a--;
+    }
+}
+    return result;
+}",Green
+WLOOP-MAX-T3,WLOOP,MAX,"void max(int a) {
+    int dummy = 0 + 0;
+    while (a> 0) {
+        printf(""%d\a"", a);
+        a--;
+    }
+}
+    return result;
+}",Green
+WLOOP-MALLOC-T3,WLOOP,MALLOC,"void allocte_memory(int n) {
+    int dummy = 0 + 0;
+    while (n > 0) {
+        printf(""%d\n"", n);
+        n--;
+    }
+}
+    return result;
+}",Green
+FIB-FIB-T3,FIB,FIB,"int fibonacci(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+    return result;
+}",Blue
+FIB-ADD-T3,FIB,ADD,"int add(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (a <= 1) int result = a;
+    return add(a - 1) + add(a - 2);
+}
+    return result;
+}",Blue
+FIB-FLOOP-T3,FIB,FLOOP,"int sum_to_n(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = n;
+    return sum_to_n(n - 1) + sum_to_n(n - 2);
+}
+    return result;
+}",Blue
+FIB-WLOOP-T3,FIB,WLOOP,"int count_down(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = n;
+    return count_down(n - 1) + count_down(n - 2);
+}
+    return result;
+}",Blue
+FIB-PRIME-T3,FIB,PRIME,"int is_prime(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = n;
+    return is_prime(n - 1) + is_prime(n - 2);
+}
+    return result;
+}",Blue
+FIB-FACT-T3,FIB,FACT,"int factorial(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = n;
+    return factorial(n - 1) + factorial(n - 2);
+}
+    return result;
+}",Blue
+FIB-SWAP-T3,FIB,SWAP,"int swap(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (a <= 1) int result = a;
+    return swap(a - 1) + swap(a - 2);
+}
+    return result;
+}",Blue
+FIB-MAX-T3,FIB,MAX,"int max(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (a <= 1) int result = a;
+    return max(a - 1) + max(a - 2);
+}
+    return result;
+}",Blue
+FIB-MALLOC-T3,FIB,MALLOC,"int allocate_array(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = n;
+    return allocate_array(n - 1) + allocate_array(n - 2);
+}
+    return result;
+}",Blue
+PRIME-PRIME-T3,PRIME,PRIME,"int is_prime(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = 0;
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) return 0;
+    }
+    return 1;
+}
+    return result;
+}",Orange
+PRIME-ADD-T3,PRIME,ADD,"int add(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (a <= 1) int result = 0;
+    for (int i = 2; b < a; b++) {
+        if (a% b == 0) return 0;
+    }
+    return 1;
+}
+    return result;
+}",Orange
+PRIME-FLOOP-T3,PRIME,FLOOP,"int sum_to_n(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = 0;
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) return 0;
+    }
+    return 1;
+}
+    return result;
+}",Orange
+PRIME-WLOOP-T3,PRIME,WLOOP,"int count_down(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = 0;
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) return 0;
+    }
+    return 1;
+}
+    return result;
+}",Orange
+PRIME-FIB-T3,PRIME,FIB,"int fibonacci(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = 0;
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) return 0;
+    }
+    return 1;
+}
+    return result;
+}",Orange
+PRIME-FACT-T3,PRIME,FACT,"int factorial(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = 0;
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) return 0;
+    }
+    return 1;
+}
+    return result;
+}",Orange
+PRIME-SWAP-T3,PRIME,SWAP,"int swap(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (a <= 1) int result = 0;
+    for (int b = 2; b < a; b++) {
+        if (a % b == 0) return 0;
+    }
+    return 1;
+}
+    return result;
+}",Orange
+PRIME-MAX-T3,PRIME,MAX,"int max(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (a <= 1) int result = 0;
+    for (int b = 2; b < a; b++) {
+        if (a % b == 0) return 0;
+    }
+    return 1;
+}
+    return result;
+}",Orange
+PRIME-MALLOC-T3,PRIME,MALLOC,"int allocate_array(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n <= 1) int result = 0;
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) return 0;
+    }
+    return 1;
+}
+    return result;
+}",Orange
+FACT-FACT-T3,FACT,FACT,"int factorial(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n == 0) int result = 1;
+    return n * factorial(n - 1);
+}
+    return result;
+}",Purple
+FACT-ADD-T3,FACT,ADD,"int add(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (a == 0) int result = 1;
+    return a * add(a - 1);
+}
+    return result;
+}",Purple
+FACT-FLOOP-T3,FACT,FLOOP,"int sum_to_n(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n == 0) int result = 1;
+    return n * sum_to_n(n - 1);
+}
+    return result;
+}",Purple
+FACT-WLOOP-T3,FACT,WLOOP,"int count_down(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n == 0) int result = 1;
+    return n * count_down(n - 1);
+}
+    return result;
+}",Purple
+FACT-FIB-T3,FACT,FIB,"int fibonacci(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n == 0) int result = 1;
+    return n * fibonacci(n - 1);
+}
+    return result;
+}",Purple
+FACT-PRIME-T3,FACT,PRIME,"int is_prime(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n == 0) int result = 1;
+    return n * is_primel(n - 1);
+}
+    return result;
+}",Purple
+FACT-SWAP-T3,FACT,SWAP,"int swap(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (a == 0) int result = 1;
+    return a * swap(a - 1);
+}
+    return result;
+}",Purple
+FACT-MAX-T3,FACT,MAX,"int max(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (a == 0) int result = 1;
+    return a * max(a - 1);
+}
+    return result;
+}",Purple
+FACT-MALLOC-T3,FACT,MALLOC,"int allocate_array(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (n == 0) int result = 1;
+    return n * allocate_array(n - 1);
+}
+    return result;
+}",Purple
+SWAP-SWAP-T3,SWAP,SWAP,"void swap(int* a, int* b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+    return result;
+}",Black
+SWAP-ADD-T3,SWAP,ADD,"void add(int* a, int* b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int n= *a;
+    *a = *b;
+    *b = n;
+}
+    return result;
+}",Black
+SWAP-FLOOP-T3,SWAP,FLOOP,"void sum_to_n(int* n, int* b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int a = *n;
+    *n = *b;
+    *b = a;
+}
+    return result;
+}",Black
+SWAP-WLOOP-T3,SWAP,WLOOP,"void count_down(int* n, int* b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int a = *n;
+    *n = *b;
+    *b = a;
+}
+    return result;
+}",Black
+SWAP-FIB-T3,SWAP,FIB,"void fibonacci(int* n, int* b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int a = *n;
+    *n = *b;
+    *b = a;
+}
+    return result;
+}",Black
+SWAP-PRIME-T3,SWAP,PRIME,"void is_prime(int* a, int* b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+    return result;
+}",Black
+SWAP-FACT-T3,SWAP,FACT,"void factorial(int* n, int* b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int a = *n;
+    *n = *b;
+    *b = a;
+}
+    return result;
+}",Black
+SWAP-MAX-T3,SWAP,MAX,"void max(int* a, int* b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+    return result;
+}",Black
+SWAP-MALLOC-T3,SWAP,MALLOC,"void allocate_array(int* n, int* b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int arr = *n;
+    *n = *b;
+    *b = arr;
+}
+    return result;
+}",Black
+MAX-MAX-T3,MAX,MAX,"int max(int a, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = (a > b) ? a : b;
+}
+    return result;
+}",Lime
+MAX-ADD-T3,MAX,ADD,"int add(int a, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = (a > b) ? a : b;
+}
+    return result;
+}",Lime
+MAX-FLOOP-T3,MAX,FLOOP,"int sum_to_n(int n, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = (n> b) ? n : b;
+}
+    return result;
+}",Lime
+MAX-WLOOP-T3,MAX,WLOOP,"int count_down(int n, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = (n> b) ? n : b;
+}
+    return result;
+}",Lime
+MAX-FIB-T3,MAX,FIB,"int fibonacci(int n, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = (n> b) ? n : b;
+}
+    return result;
+}",Lime
+MAX-PRIME-T3,MAX,PRIME,"int is_prime(int n, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = (n> b) ? n : b;
+}
+    return result;
+}",Lime
+MAX-FACT-T3,MAX,FACT,"int factorial(int n, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = (n> b) ? n : b;
+}
+    return result;
+}",Lime
+MAX-SWAP-T3,MAX,SWAP,"int swap(int a, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = (a > b) ? a : b;
+}
+    return result;
+}",Lime
+MAX-MALLOC-T3,MAX,MALLOC,"int allocate_array(int n, int b) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int result = (n> b) ? n : b;
+}
+    return result;
+}",Lime
+MALLOC-MALLOC-T3,MALLOC,MALLOC,"int* allocate_array(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int* arr = (int*)malloc(n * sizeof(int));
+    int result = arr;
+}
+    return result;
+}",deepskyblue
+MALLOC-ADD-T3,MALLOC,ADD,"int* add(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int* b = (int*)malloc(a * sizeof(int));
+    int result = b;
+}
+    return result;
+}",deepskyblue
+MALLOC-FLOOP-T3,MALLOC,FLOOP,"int* sum_to_n(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int* sum = (int*)malloc(n * sizeof(int));
+    int result = sum;
+}
+    return result;
+}",deepskyblue
+MALLOC-WLOOP-T3,MALLOC,WLOOP,"int* count_down(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int* arr = (int*)malloc(n * sizeof(int));
+    int result = arr;
+}
+    return result;
+}",deepskyblue
+MALLOC-FIB-T3,MALLOC,FIB,"int* fibonacci(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int* fibonaci = (int*)malloc(n * sizeof(int));
+    int result = fibonaci;
+}
+    return result;
+}",deepskyblue
+MALLOC-PRIME-T3,MALLOC,PRIME,"int* is_prime(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int* arr = (int*)malloc(n * sizeof(int));
+    int result = arr;
+}
+    return result;
+}",deepskyblue
+MALLOC-FACT-T3,MALLOC,FACT,"int* factorial(int n) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int* factor = (int*)malloc(n * sizeof(int));
+    int result = factor;
+}
+    return result;
+}",deepskyblue
+MALLOC-SWAP-T3,MALLOC,SWAP,"int* swap(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    int* b = (int*)malloc(a * sizeof(int));
+    int result = b;
+}
+    return result;
+}",deepskyblue

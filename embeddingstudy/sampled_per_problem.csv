@@ -1,0 +1,5867 @@
+Unnamed: 0,index,submission_id,problem_id,user_id,date,language,original_language,filename_ext,status,cpu_time,memory,code_size,accuracy,Correct/incorrect,submission_idstr,problem_idstr,test_path,sum_path,code,summary
+4946,8511,s346655530,p00000,u011621222,1404112472,C++,C++,cpp,Accepted,0.0,924.0,147,1/1,1,s346655530,p00000,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00000/s346655530.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00000.txt,"#include<stdio.h>
+int main()
+{
+    for(int i=1; i<10; i++)
+        for(int j=1; j<10 ; j++)
+          printf(""%dx%d=%d\n"",i,j,i*j);
+    return 0;
+}","Here's the code summary for the given problem statement:
+
+---
+
+### **Code Summary Format**
+
+#### **1. Function/Method Name:**  
+`print_multiplication_tables`
+
+#### **2. Purpose:**  
+Prints the multiplication tables from `1x1` to `9x9` in a structured format.
+
+#### **3. Inputs:**  
+None (No input required).
+
+#### **4. Outputs:**  
+Prints multiplication tables in the format:  
+```
+1x1=1  
+1x2=2  
+...  
+9x8=72  
+9x9=81  
+```
+
+#### **5. Key Operations/Logic:**  
+- Uses nested loops to iterate through numbers `1` to `9`.  
+- For each pair `(i, j)`, computes and prints `i x j = i*j`.  
+- Ensures correct formatting (`i` and `j` range from `1` to `9`).  
+
+#### **6. Dependencies:**  
+- **C:** `stdio.h` (for `printf`).  
+- **C++:** `iostream` (for `cout`).  
+
+#### **7. Edge Cases Handled:**  
+- No input handling required (problem specifies no input).  
+- Ensures all combinations from `1x1` to `9x9` are printed.  
+
+#### **8. Example Usage (C):**  
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            printf(""%dx%d=%d\n"", i, j, i * j);
+        }
+    }
+    return 0;
+}
+```
+
+#### **9. Example Usage (C++):**  
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            cout << i << ""x"" << j << ""="" << (i * j) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+---
+
+### **Summary Notes:**
+- The problem is straightforward, requiring nested loops to generate multiplication tables.  
+- No input validation is needed since the task is purely output-based.  
+- The solution is easily adaptable to C, C++, or Java with minor syntax changes.  
+
+Would you like any modifications or additional details?"
+4974,8539,s636982314,p00000,u252588925,1405756598,C++,C++11,cpp,Accepted,0.0,1152.0,270,1/1,1,s636982314,p00000,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00000/s636982314.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00000.txt,"#include <iostream>
+
+int main() {
+    std::ios::sync_with_stdio(false);
+
+    for (int i = 1; i < 10; ++i) {
+        for (int j = 1; j < 10; ++j) {
+            std::cout << i << ""x"" << j
+                      << ""="" << i * j << std::endl;
+        }
+    }
+
+    return 0;
+}","Here's the code summary for the given problem statement:
+
+---
+
+### **Code Summary Format**
+
+#### **1. Function/Method Name:**  
+`print_multiplication_tables`
+
+#### **2. Purpose:**  
+Prints the multiplication tables from `1x1` to `9x9` in a structured format.
+
+#### **3. Inputs:**  
+None (No input required).
+
+#### **4. Outputs:**  
+Prints multiplication tables in the format:  
+```
+1x1=1  
+1x2=2  
+...  
+9x8=72  
+9x9=81  
+```
+
+#### **5. Key Operations/Logic:**  
+- Uses nested loops to iterate through numbers `1` to `9`.  
+- For each pair `(i, j)`, computes and prints `i x j = i*j`.  
+- Ensures correct formatting (`i` and `j` range from `1` to `9`).  
+
+#### **6. Dependencies:**  
+- **C:** `stdio.h` (for `printf`).  
+- **C++:** `iostream` (for `cout`).  
+
+#### **7. Edge Cases Handled:**  
+- No input handling required (problem specifies no input).  
+- Ensures all combinations from `1x1` to `9x9` are printed.  
+
+#### **8. Example Usage (C):**  
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            printf(""%dx%d=%d\n"", i, j, i * j);
+        }
+    }
+    return 0;
+}
+```
+
+#### **9. Example Usage (C++):**  
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            cout << i << ""x"" << j << ""="" << (i * j) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+---
+
+### **Summary Notes:**
+- The problem is straightforward, requiring nested loops to generate multiplication tables.  
+- No input validation is needed since the task is purely output-based.  
+- The solution is easily adaptable to C, C++, or Java with minor syntax changes.  
+
+Would you like any modifications or additional details?"
+8354,11919,s913000658,p00000,u195794119,1301891277,C++,C++,cpp,Accepted,0.0,0.0,185,,1,s913000658,p00000,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00000/s913000658.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00000.txt,"#include <iostream>
+
+int main(int argc, char** argv)
+{
+  for (int i = 1; i <= 9; i ++)
+    for (int j = 1; j <= 9; j ++)
+      std::cout << i << 'x' << j << '=' << i * j << std::endl;
+}","Here's the code summary for the given problem statement:
+
+---
+
+### **Code Summary Format**
+
+#### **1. Function/Method Name:**  
+`print_multiplication_tables`
+
+#### **2. Purpose:**  
+Prints the multiplication tables from `1x1` to `9x9` in a structured format.
+
+#### **3. Inputs:**  
+None (No input required).
+
+#### **4. Outputs:**  
+Prints multiplication tables in the format:  
+```
+1x1=1  
+1x2=2  
+...  
+9x8=72  
+9x9=81  
+```
+
+#### **5. Key Operations/Logic:**  
+- Uses nested loops to iterate through numbers `1` to `9`.  
+- For each pair `(i, j)`, computes and prints `i x j = i*j`.  
+- Ensures correct formatting (`i` and `j` range from `1` to `9`).  
+
+#### **6. Dependencies:**  
+- **C:** `stdio.h` (for `printf`).  
+- **C++:** `iostream` (for `cout`).  
+
+#### **7. Edge Cases Handled:**  
+- No input handling required (problem specifies no input).  
+- Ensures all combinations from `1x1` to `9x9` are printed.  
+
+#### **8. Example Usage (C):**  
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            printf(""%dx%d=%d\n"", i, j, i * j);
+        }
+    }
+    return 0;
+}
+```
+
+#### **9. Example Usage (C++):**  
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            cout << i << ""x"" << j << ""="" << (i * j) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+---
+
+### **Summary Notes:**
+- The problem is straightforward, requiring nested loops to generate multiplication tables.  
+- No input validation is needed since the task is purely output-based.  
+- The solution is easily adaptable to C, C++, or Java with minor syntax changes.  
+
+Would you like any modifications or additional details?"
+5119,8684,s192008613,p00000,u642549559,1415356028,C++,C++,cpp,Accepted,0.0,1120.0,893,1/1,1,s192008613,p00000,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00000/s192008613.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00000.txt,"#include <iostream>
+#include <string>
+#include <vector>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <map>
+#include <algorithm>
+#include <set>
+#include <sstream>
+#include <numeric>
+#include <bitset>
+#include <complex>
+#include <iomanip>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <cmath>
+#include <climits>
+#include <cctype>
+#include <cassert>
+using namespace std;
+ 
+typedef long long ll;
+static const double EPS = 1e-8;
+static const double PI = 4.0 * atan(1.0);
+bool ISINT(double x){return fabs(x-(int)round(x))<EPS;}
+bool ISEQ(double x,double y){return fabs(x-y)<EPS;}
+string itos(ll x){stringstream ss;ss<<x;return ss.str();}
+#define foreach(itr,c) for(__typeof(c.begin()) itr=c.begin();itr!=c.end();itr++)
+ 
+int main(void){
+  for(int i = 1; i < 10; i++){
+    for(int j = 1; j < 10; j++){
+      cout << i << ""x"" << j << ""="" << i * j << endl;
+    }
+  }
+}","Here's the code summary for the given problem statement:
+
+---
+
+### **Code Summary Format**
+
+#### **1. Function/Method Name:**  
+`print_multiplication_tables`
+
+#### **2. Purpose:**  
+Prints the multiplication tables from `1x1` to `9x9` in a structured format.
+
+#### **3. Inputs:**  
+None (No input required).
+
+#### **4. Outputs:**  
+Prints multiplication tables in the format:  
+```
+1x1=1  
+1x2=2  
+...  
+9x8=72  
+9x9=81  
+```
+
+#### **5. Key Operations/Logic:**  
+- Uses nested loops to iterate through numbers `1` to `9`.  
+- For each pair `(i, j)`, computes and prints `i x j = i*j`.  
+- Ensures correct formatting (`i` and `j` range from `1` to `9`).  
+
+#### **6. Dependencies:**  
+- **C:** `stdio.h` (for `printf`).  
+- **C++:** `iostream` (for `cout`).  
+
+#### **7. Edge Cases Handled:**  
+- No input handling required (problem specifies no input).  
+- Ensures all combinations from `1x1` to `9x9` are printed.  
+
+#### **8. Example Usage (C):**  
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            printf(""%dx%d=%d\n"", i, j, i * j);
+        }
+    }
+    return 0;
+}
+```
+
+#### **9. Example Usage (C++):**  
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            cout << i << ""x"" << j << ""="" << (i * j) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+---
+
+### **Summary Notes:**
+- The problem is straightforward, requiring nested loops to generate multiplication tables.  
+- No input validation is needed since the task is purely output-based.  
+- The solution is easily adaptable to C, C++, or Java with minor syntax changes.  
+
+Would you like any modifications or additional details?"
+6882,10447,s836001534,p00000,u890265381,1473418612,C++,C++,cpp,Accepted,0.0,1116.0,451,1/1,1,s836001534,p00000,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00000/s836001534.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00000.txt,"#include <iostream>
+#include <algorithm>
+#include <string>
+#include <vector>
+#include <queue>
+#include <bitset>
+#include <set>
+#include <queue>
+
+#define rep(i,n) for(int i=0;i<n;i++)
+#define REP(i,b,n) for(int i=b;i<n;i++)
+
+const float PI = 3.1415926;
+static const int INFTY = (1<<30);
+
+using namespace std;
+
+typedef long long ll;
+typedef long double ld;
+
+int main() {
+  REP(i,1,10)
+    REP(j,1,10)
+    cout << i<<'x'<<j<<'='<<i*j<<endl;
+  return 0;
+}","Here's the code summary for the given problem statement:
+
+---
+
+### **Code Summary Format**
+
+#### **1. Function/Method Name:**  
+`print_multiplication_tables`
+
+#### **2. Purpose:**  
+Prints the multiplication tables from `1x1` to `9x9` in a structured format.
+
+#### **3. Inputs:**  
+None (No input required).
+
+#### **4. Outputs:**  
+Prints multiplication tables in the format:  
+```
+1x1=1  
+1x2=2  
+...  
+9x8=72  
+9x9=81  
+```
+
+#### **5. Key Operations/Logic:**  
+- Uses nested loops to iterate through numbers `1` to `9`.  
+- For each pair `(i, j)`, computes and prints `i x j = i*j`.  
+- Ensures correct formatting (`i` and `j` range from `1` to `9`).  
+
+#### **6. Dependencies:**  
+- **C:** `stdio.h` (for `printf`).  
+- **C++:** `iostream` (for `cout`).  
+
+#### **7. Edge Cases Handled:**  
+- No input handling required (problem specifies no input).  
+- Ensures all combinations from `1x1` to `9x9` are printed.  
+
+#### **8. Example Usage (C):**  
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            printf(""%dx%d=%d\n"", i, j, i * j);
+        }
+    }
+    return 0;
+}
+```
+
+#### **9. Example Usage (C++):**  
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            cout << i << ""x"" << j << ""="" << (i * j) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+---
+
+### **Summary Notes:**
+- The problem is straightforward, requiring nested loops to generate multiplication tables.  
+- No input validation is needed since the task is purely output-based.  
+- The solution is easily adaptable to C, C++, or Java with minor syntax changes.  
+
+Would you like any modifications or additional details?"
+5257,8822,s599232960,p00000,u472907951,1420021467,C++,C++,cpp,Accepted,0.0,1116.0,204,1/1,1,s599232960,p00000,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00000/s599232960.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00000.txt,"#include<iostream>
+using namespace std;
+
+int main(){
+	unsigned a, b;
+	for ( a = 1; a  <= 9; a++ )
+	{
+		for ( b = 1; b <= 9; b++ )
+		{
+			cout  << a << 'x' << b << '=' << a * b << endl;
+		}
+	}
+	return 0;
+}","Here's the code summary for the given problem statement:
+
+---
+
+### **Code Summary Format**
+
+#### **1. Function/Method Name:**  
+`print_multiplication_tables`
+
+#### **2. Purpose:**  
+Prints the multiplication tables from `1x1` to `9x9` in a structured format.
+
+#### **3. Inputs:**  
+None (No input required).
+
+#### **4. Outputs:**  
+Prints multiplication tables in the format:  
+```
+1x1=1  
+1x2=2  
+...  
+9x8=72  
+9x9=81  
+```
+
+#### **5. Key Operations/Logic:**  
+- Uses nested loops to iterate through numbers `1` to `9`.  
+- For each pair `(i, j)`, computes and prints `i x j = i*j`.  
+- Ensures correct formatting (`i` and `j` range from `1` to `9`).  
+
+#### **6. Dependencies:**  
+- **C:** `stdio.h` (for `printf`).  
+- **C++:** `iostream` (for `cout`).  
+
+#### **7. Edge Cases Handled:**  
+- No input handling required (problem specifies no input).  
+- Ensures all combinations from `1x1` to `9x9` are printed.  
+
+#### **8. Example Usage (C):**  
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            printf(""%dx%d=%d\n"", i, j, i * j);
+        }
+    }
+    return 0;
+}
+```
+
+#### **9. Example Usage (C++):**  
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            cout << i << ""x"" << j << ""="" << (i * j) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+---
+
+### **Summary Notes:**
+- The problem is straightforward, requiring nested loops to generate multiplication tables.  
+- No input validation is needed since the task is purely output-based.  
+- The solution is easily adaptable to C, C++, or Java with minor syntax changes.  
+
+Would you like any modifications or additional details?"
+7800,11365,s229329029,p00000,u672543083,1510728117,C++,C++,cpp,Accepted,0.0,3076.0,189,1/1,1,s229329029,p00000,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00000/s229329029.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00000.txt,"#include <iostream>
+#include <stdio.h>
+
+
+using namespace std;
+
+
+
+int main(){
+  for(int i=1;i<10;i++){
+    for(int j=1;j<10;j++){
+      std::cout << i <<""x""<<j<<""=""<<i*j<< '\n';
+    }
+  }
+
+}","Here's the code summary for the given problem statement:
+
+---
+
+### **Code Summary Format**
+
+#### **1. Function/Method Name:**  
+`print_multiplication_tables`
+
+#### **2. Purpose:**  
+Prints the multiplication tables from `1x1` to `9x9` in a structured format.
+
+#### **3. Inputs:**  
+None (No input required).
+
+#### **4. Outputs:**  
+Prints multiplication tables in the format:  
+```
+1x1=1  
+1x2=2  
+...  
+9x8=72  
+9x9=81  
+```
+
+#### **5. Key Operations/Logic:**  
+- Uses nested loops to iterate through numbers `1` to `9`.  
+- For each pair `(i, j)`, computes and prints `i x j = i*j`.  
+- Ensures correct formatting (`i` and `j` range from `1` to `9`).  
+
+#### **6. Dependencies:**  
+- **C:** `stdio.h` (for `printf`).  
+- **C++:** `iostream` (for `cout`).  
+
+#### **7. Edge Cases Handled:**  
+- No input handling required (problem specifies no input).  
+- Ensures all combinations from `1x1` to `9x9` are printed.  
+
+#### **8. Example Usage (C):**  
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            printf(""%dx%d=%d\n"", i, j, i * j);
+        }
+    }
+    return 0;
+}
+```
+
+#### **9. Example Usage (C++):**  
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            cout << i << ""x"" << j << ""="" << (i * j) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+---
+
+### **Summary Notes:**
+- The problem is straightforward, requiring nested loops to generate multiplication tables.  
+- No input validation is needed since the task is purely output-based.  
+- The solution is easily adaptable to C, C++, or Java with minor syntax changes.  
+
+Would you like any modifications or additional details?"
+4935,8500,s652254667,p00000,u908998376,1559315775,C++,C++,cpp,Accepted,0.0,3040.0,494,1/1,1,s652254667,p00000,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00000/s652254667.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00000.txt,"#include <bits/stdc++.h>
+#define rep(i,n) for(int i = 0; i < (n); ++i)
+#define rrep(i,n) for(int i = 1; i <= (n); ++i)
+#define drep(i,n) for(int i = (n)-1; i >= 0; --i)
+#define srep(i,s,t) for (int i = s; i < t; ++i)
+using namespace std;
+typedef long long int ll;
+#define dame { puts(""-1""); return 0;}
+#define yn {puts(""Yes"");}else{puts(""No"");}
+
+
+int main() {
+    srep(i,1,10){
+        srep(j,1,10){
+            cout << i << 'x' << j << '=' << i*j << endl;
+        }
+    }
+    return 0;
+}
+ 
+ 
+
+","Here's the code summary for the given problem statement:
+
+---
+
+### **Code Summary Format**
+
+#### **1. Function/Method Name:**  
+`print_multiplication_tables`
+
+#### **2. Purpose:**  
+Prints the multiplication tables from `1x1` to `9x9` in a structured format.
+
+#### **3. Inputs:**  
+None (No input required).
+
+#### **4. Outputs:**  
+Prints multiplication tables in the format:  
+```
+1x1=1  
+1x2=2  
+...  
+9x8=72  
+9x9=81  
+```
+
+#### **5. Key Operations/Logic:**  
+- Uses nested loops to iterate through numbers `1` to `9`.  
+- For each pair `(i, j)`, computes and prints `i x j = i*j`.  
+- Ensures correct formatting (`i` and `j` range from `1` to `9`).  
+
+#### **6. Dependencies:**  
+- **C:** `stdio.h` (for `printf`).  
+- **C++:** `iostream` (for `cout`).  
+
+#### **7. Edge Cases Handled:**  
+- No input handling required (problem specifies no input).  
+- Ensures all combinations from `1x1` to `9x9` are printed.  
+
+#### **8. Example Usage (C):**  
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            printf(""%dx%d=%d\n"", i, j, i * j);
+        }
+    }
+    return 0;
+}
+```
+
+#### **9. Example Usage (C++):**  
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            cout << i << ""x"" << j << ""="" << (i * j) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+---
+
+### **Summary Notes:**
+- The problem is straightforward, requiring nested loops to generate multiplication tables.  
+- No input validation is needed since the task is purely output-based.  
+- The solution is easily adaptable to C, C++, or Java with minor syntax changes.  
+
+Would you like any modifications or additional details?"
+7129,10694,s675829365,p00000,u745339512,1484015550,C++,C++,cpp,Accepted,0.0,3016.0,928,1/1,1,s675829365,p00000,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00000/s675829365.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00000.txt,"#include <bits/stdc++.h>
+using namespace std;
+
+typedef long int lint;
+typedef long long int llint;
+typedef pair<int, int> pii;
+typedef pair<int, string> pis;
+typedef pair<long, long> pll;
+
+#define EACH(i, c) for (__typeof((c).begin()) i = (c).begin(); i != (c).end(); ++i)
+#define ALL(c) (c).begin(), (c).end()
+#define FOR(i, s, e) for (int i = (s); i < (int)(e); ++i)
+#define REP(i, n) FOR(i, 0, n)
+#define endl '\n'
+#define mod 1000000007
+#define INF 100000000
+#define fk first
+#define sv second
+
+const int dx[] = {1, 0, -1, 0, 1, 1, -1, -1}, dy[] = {0, 1, 0, -1, 1, -1, 1, -1};
+
+template<typename T>
+void print(const std::vector<T>& v, char sep=' ') {
+  for (int i = 0; i < (int)v.size(); i++) {
+    if (i != 0) cout << sep;
+    cout << v[i];
+  }
+  cout << endl;
+}
+
+int main()
+{
+  cin.tie(0);
+  ios::sync_with_stdio(false);
+  FOR(i, 1, 10){
+    FOR(j, 1,  10){
+      cout << i << 'x' << j << '=' << i * j << endl;
+    }
+  }
+}","Here's the code summary for the given problem statement:
+
+---
+
+### **Code Summary Format**
+
+#### **1. Function/Method Name:**  
+`print_multiplication_tables`
+
+#### **2. Purpose:**  
+Prints the multiplication tables from `1x1` to `9x9` in a structured format.
+
+#### **3. Inputs:**  
+None (No input required).
+
+#### **4. Outputs:**  
+Prints multiplication tables in the format:  
+```
+1x1=1  
+1x2=2  
+...  
+9x8=72  
+9x9=81  
+```
+
+#### **5. Key Operations/Logic:**  
+- Uses nested loops to iterate through numbers `1` to `9`.  
+- For each pair `(i, j)`, computes and prints `i x j = i*j`.  
+- Ensures correct formatting (`i` and `j` range from `1` to `9`).  
+
+#### **6. Dependencies:**  
+- **C:** `stdio.h` (for `printf`).  
+- **C++:** `iostream` (for `cout`).  
+
+#### **7. Edge Cases Handled:**  
+- No input handling required (problem specifies no input).  
+- Ensures all combinations from `1x1` to `9x9` are printed.  
+
+#### **8. Example Usage (C):**  
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            printf(""%dx%d=%d\n"", i, j, i * j);
+        }
+    }
+    return 0;
+}
+```
+
+#### **9. Example Usage (C++):**  
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            cout << i << ""x"" << j << ""="" << (i * j) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+---
+
+### **Summary Notes:**
+- The problem is straightforward, requiring nested loops to generate multiplication tables.  
+- No input validation is needed since the task is purely output-based.  
+- The solution is easily adaptable to C, C++, or Java with minor syntax changes.  
+
+Would you like any modifications or additional details?"
+6154,9719,s256150330,p00000,u741328636,1445831493,C++,C++,cpp,Accepted,0.0,1116.0,211,1/1,1,s256150330,p00000,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00000/s256150330.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00000.txt,"#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+	int a=1,b=1;
+	for(int i=0;i<9;i++){
+		for(int j=0;j<9;j++){
+			cout<<a<<""x""<<b<<""=""<<a*b<<endl;
+			b++;
+		}
+		b=1;
+		a++;
+	}
+	return 0;
+}","Here's the code summary for the given problem statement:
+
+---
+
+### **Code Summary Format**
+
+#### **1. Function/Method Name:**  
+`print_multiplication_tables`
+
+#### **2. Purpose:**  
+Prints the multiplication tables from `1x1` to `9x9` in a structured format.
+
+#### **3. Inputs:**  
+None (No input required).
+
+#### **4. Outputs:**  
+Prints multiplication tables in the format:  
+```
+1x1=1  
+1x2=2  
+...  
+9x8=72  
+9x9=81  
+```
+
+#### **5. Key Operations/Logic:**  
+- Uses nested loops to iterate through numbers `1` to `9`.  
+- For each pair `(i, j)`, computes and prints `i x j = i*j`.  
+- Ensures correct formatting (`i` and `j` range from `1` to `9`).  
+
+#### **6. Dependencies:**  
+- **C:** `stdio.h` (for `printf`).  
+- **C++:** `iostream` (for `cout`).  
+
+#### **7. Edge Cases Handled:**  
+- No input handling required (problem specifies no input).  
+- Ensures all combinations from `1x1` to `9x9` are printed.  
+
+#### **8. Example Usage (C):**  
+```c
+#include <stdio.h>
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            printf(""%dx%d=%d\n"", i, j, i * j);
+        }
+    }
+    return 0;
+}
+```
+
+#### **9. Example Usage (C++):**  
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            cout << i << ""x"" << j << ""="" << (i * j) << endl;
+        }
+    }
+    return 0;
+}
+```
+
+---
+
+### **Summary Notes:**
+- The problem is straightforward, requiring nested loops to generate multiplication tables.  
+- No input validation is needed since the task is purely output-based.  
+- The solution is easily adaptable to C, C++, or Java with minor syntax changes.  
+
+Would you like any modifications or additional details?"
+13854,6483,s441763398,p00001,u354711917,1422401701,C++,C++,cpp,Accepted,0.0,1196.0,1240,4/4,1,s441763398,p00001,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00001/s441763398.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00001.txt,"#include <algorithm>
+#include <bitset>
+#include <cctype>
+#include <cfloat>
+#include <climits>
+#include <cmath>
+#include <complex>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
+#include <fstream>
+#include <functional>
+#include <iomanip>
+#include <iostream>
+#include <list>
+#include <map>
+#include <numeric>
+#include <queue>
+#include <set>
+#include <sstream>
+#include <stack>
+#include <string>
+#include <utility>
+#include <vector>
+#define FOR(x,a,b) for(int x=a;x<b;x++)
+#define REP(x,b) for(int x=0;x<b;x++)
+#define FORSIZE(x,A) for(int x=0;x<A.size();x++)
+#define ITR(x,c) for(__typeof(c.begin()) x=c.begin();x!=c.end();x++)
+#define SORT(x) sort(x.begin(),x.end())
+#define RSORT(x) sort(x.rbegin(),x.rend())
+#define rsort(x,n) sort(x, x+n, greater<int>())
+#define REV(x) reverse(x.begin(),x.end())
+using namespace std;
+typedef long long ll;
+inline int toInt(std::string s) {int v; std::istringstream sin(s);sin>>v;return v;}
+template<class T> inline std::string toString(T x) {std::ostringstream sout;sout<<x;return sout.str();}
+
+int main( int argc, const char* argv[] )
+{
+    vector<int> heights(10);
+    REP(i, 10) cin >> heights[i];
+    RSORT(heights);
+    REP(i, 3) cout << heights[i] << endl;
+    return 0;
+}","Here's the code summary for the ""List of Top 3 Hills"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `get_top_3_hills`
+
+2. **Purpose**:  
+   Reads heights of 10 mountains and prints the top 3 highest heights in descending order.
+
+3. **Inputs**:  
+   - `heights` (int array): An array of 10 integers representing mountain heights (0 ≤ height ≤ 10,000).
+
+4. **Outputs**:  
+   Prints the top 3 highest heights in descending order, one per line.
+
+5. **Key Operations/Logic**:  
+   - Reads 10 mountain heights from input.  
+   - Sorts the array in descending order.  
+   - Prints the first 3 elements of the sorted array.  
+
+6. **Dependencies**:  
+   - `<algorithm>` (for sorting in C++)  
+   - `<vector>` (optional, if using C++ containers)  
+
+7. **Edge Cases Handled**:  
+   - Handles duplicate heights (e.g., two mountains with height 900).  
+   - Assumes valid input (10 integers within the specified range).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <vector>
+   
+   void get_top_3_hills() {
+       std::vector<int> heights(10);
+       for (int i = 0; i < 10; i++) {
+           std::cin >> heights[i];
+       }
+       std::sort(heights.begin(), heights.end(), std::greater<int>());
+       for (int i = 0; i < 3; i++) {
+           std::cout << heights[i] << std::endl;
+       }
+   }
+   
+   int main() {
+       get_top_3_hills();
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- **C Alternative**: In C, you could manually sort the array (e.g., using bubble sort or `qsort`).  
+- **Input Handling**: The function expects exactly 10 integers as input.  
+- **Output Format**: Prints the top 3 heights in descending order, one per line.  
+
+This summary provides a structured way to understand and implement the solution in C/C++. Let me know if you'd like any modifications!"
+14063,6692,s102927004,p00001,u313570264,1432286084,C++,C++,cpp,Accepted,0.0,1160.0,313,4/4,1,s102927004,p00001,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00001/s102927004.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00001.txt,"#include <iostream>
+using namespace std;
+int main(){
+	int m[10];
+	for(int i=0;i<10;i++) cin >> m[i];
+	while(1){
+		bool j = true;
+		for(int i=0;i<9;i++){
+			if(m[i]<m[i+1]){
+				int t = m[i];
+				m[i] = m[i+1];
+				m[i+1] = t;
+				j = false;
+			}
+		}
+		if(j) break;
+	}
+	for(int i=0;i<3;i++) cout << m[i] << endl;
+}","Here's the code summary for the ""List of Top 3 Hills"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `get_top_3_hills`
+
+2. **Purpose**:  
+   Reads heights of 10 mountains and prints the top 3 highest heights in descending order.
+
+3. **Inputs**:  
+   - `heights` (int array): An array of 10 integers representing mountain heights (0 ≤ height ≤ 10,000).
+
+4. **Outputs**:  
+   Prints the top 3 highest heights in descending order, one per line.
+
+5. **Key Operations/Logic**:  
+   - Reads 10 mountain heights from input.  
+   - Sorts the array in descending order.  
+   - Prints the first 3 elements of the sorted array.  
+
+6. **Dependencies**:  
+   - `<algorithm>` (for sorting in C++)  
+   - `<vector>` (optional, if using C++ containers)  
+
+7. **Edge Cases Handled**:  
+   - Handles duplicate heights (e.g., two mountains with height 900).  
+   - Assumes valid input (10 integers within the specified range).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <vector>
+   
+   void get_top_3_hills() {
+       std::vector<int> heights(10);
+       for (int i = 0; i < 10; i++) {
+           std::cin >> heights[i];
+       }
+       std::sort(heights.begin(), heights.end(), std::greater<int>());
+       for (int i = 0; i < 3; i++) {
+           std::cout << heights[i] << std::endl;
+       }
+   }
+   
+   int main() {
+       get_top_3_hills();
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- **C Alternative**: In C, you could manually sort the array (e.g., using bubble sort or `qsort`).  
+- **Input Handling**: The function expects exactly 10 integers as input.  
+- **Output Format**: Prints the top 3 heights in descending order, one per line.  
+
+This summary provides a structured way to understand and implement the solution in C/C++. Let me know if you'd like any modifications!"
+14522,7151,s488757757,p00001,u011621222,1456916053,C++,C++,cpp,Accepted,0.0,1028.0,447,4/4,1,s488757757,p00001,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00001/s488757757.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00001.txt,"#include<stdio.h>
+
+int main()
+
+{
+    int height[15],i,j,temp;
+
+    for(i=0;i<10;i++)
+        scanf(""%d"",& height[i]);
+    for(i=0;i<10;i++)
+    {
+        for(j=i+1;j<10;j++)
+        {
+            if(height[i]>height[j]){
+
+                temp=height[j];
+                 height[j]=height[i];
+                 height[i]=temp;
+
+            }
+        }
+    }
+      for(i=9;i>6;i--)
+      {
+          printf(""%d\n"",height[i]);
+
+      }
+    return 0;
+}","Here's the code summary for the ""List of Top 3 Hills"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `get_top_3_hills`
+
+2. **Purpose**:  
+   Reads heights of 10 mountains and prints the top 3 highest heights in descending order.
+
+3. **Inputs**:  
+   - `heights` (int array): An array of 10 integers representing mountain heights (0 ≤ height ≤ 10,000).
+
+4. **Outputs**:  
+   Prints the top 3 highest heights in descending order, one per line.
+
+5. **Key Operations/Logic**:  
+   - Reads 10 mountain heights from input.  
+   - Sorts the array in descending order.  
+   - Prints the first 3 elements of the sorted array.  
+
+6. **Dependencies**:  
+   - `<algorithm>` (for sorting in C++)  
+   - `<vector>` (optional, if using C++ containers)  
+
+7. **Edge Cases Handled**:  
+   - Handles duplicate heights (e.g., two mountains with height 900).  
+   - Assumes valid input (10 integers within the specified range).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <vector>
+   
+   void get_top_3_hills() {
+       std::vector<int> heights(10);
+       for (int i = 0; i < 10; i++) {
+           std::cin >> heights[i];
+       }
+       std::sort(heights.begin(), heights.end(), std::greater<int>());
+       for (int i = 0; i < 3; i++) {
+           std::cout << heights[i] << std::endl;
+       }
+   }
+   
+   int main() {
+       get_top_3_hills();
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- **C Alternative**: In C, you could manually sort the array (e.g., using bubble sort or `qsort`).  
+- **Input Handling**: The function expects exactly 10 integers as input.  
+- **Output Format**: Prints the top 3 heights in descending order, one per line.  
+
+This summary provides a structured way to understand and implement the solution in C/C++. Let me know if you'd like any modifications!"
+14007,6636,s468401260,p00001,u002433243,1431496650,C++,C++,cpp,Accepted,0.0,1164.0,476,4/4,1,s468401260,p00001,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00001/s468401260.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00001.txt,"#include<iostream>
+
+using namespace std;
+
+//??\?????????
+void swap(int *a, int *b){
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
+int main(){
+	int str,mt[10];
+	int i;
+	
+	for(i=0;i<10;i++){
+		cin >> str;
+		mt[i]=str;
+	}
+	
+	// ????????????
+	int num = 1;
+	while(num<=3){
+		str = mt[num-1];
+		for(i=num;i<10;i++){
+			if(str<mt[i]){
+				str = mt[i];
+				swap(mt[num-1],mt[i]);
+			}
+		}
+		num++;
+	}
+	
+	cout << mt[0] << ""\n"";
+	cout << mt[1] << ""\n"";
+	cout << mt[2] << ""\n"";
+	
+	return 0;
+}","Here's the code summary for the ""List of Top 3 Hills"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `get_top_3_hills`
+
+2. **Purpose**:  
+   Reads heights of 10 mountains and prints the top 3 highest heights in descending order.
+
+3. **Inputs**:  
+   - `heights` (int array): An array of 10 integers representing mountain heights (0 ≤ height ≤ 10,000).
+
+4. **Outputs**:  
+   Prints the top 3 highest heights in descending order, one per line.
+
+5. **Key Operations/Logic**:  
+   - Reads 10 mountain heights from input.  
+   - Sorts the array in descending order.  
+   - Prints the first 3 elements of the sorted array.  
+
+6. **Dependencies**:  
+   - `<algorithm>` (for sorting in C++)  
+   - `<vector>` (optional, if using C++ containers)  
+
+7. **Edge Cases Handled**:  
+   - Handles duplicate heights (e.g., two mountains with height 900).  
+   - Assumes valid input (10 integers within the specified range).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <vector>
+   
+   void get_top_3_hills() {
+       std::vector<int> heights(10);
+       for (int i = 0; i < 10; i++) {
+           std::cin >> heights[i];
+       }
+       std::sort(heights.begin(), heights.end(), std::greater<int>());
+       for (int i = 0; i < 3; i++) {
+           std::cout << heights[i] << std::endl;
+       }
+   }
+   
+   int main() {
+       get_top_3_hills();
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- **C Alternative**: In C, you could manually sort the array (e.g., using bubble sort or `qsort`).  
+- **Input Handling**: The function expects exactly 10 integers as input.  
+- **Output Format**: Prints the top 3 heights in descending order, one per line.  
+
+This summary provides a structured way to understand and implement the solution in C/C++. Let me know if you'd like any modifications!"
+14324,6953,s215491518,p00001,u702328791,1442471542,C++,C++,cpp,Accepted,0.0,1028.0,209,4/4,1,s215491518,p00001,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00001/s215491518.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00001.txt,"#include<stdio.h>
+int main(){
+int a[10],b=0,c;
+for(int i=0;i<10;i++){
+scanf(""%d"",&a[i]);
+}
+for(int i=0;i<3;i++){
+for(int j=0;j<10;j++){
+if(a[j]>b){
+b=a[j];
+c=j;
+}
+}
+printf(""%d\n"",b);
+b=0;
+a[c]=0;
+}
+return 0;
+}","Here's the code summary for the ""List of Top 3 Hills"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `get_top_3_hills`
+
+2. **Purpose**:  
+   Reads heights of 10 mountains and prints the top 3 highest heights in descending order.
+
+3. **Inputs**:  
+   - `heights` (int array): An array of 10 integers representing mountain heights (0 ≤ height ≤ 10,000).
+
+4. **Outputs**:  
+   Prints the top 3 highest heights in descending order, one per line.
+
+5. **Key Operations/Logic**:  
+   - Reads 10 mountain heights from input.  
+   - Sorts the array in descending order.  
+   - Prints the first 3 elements of the sorted array.  
+
+6. **Dependencies**:  
+   - `<algorithm>` (for sorting in C++)  
+   - `<vector>` (optional, if using C++ containers)  
+
+7. **Edge Cases Handled**:  
+   - Handles duplicate heights (e.g., two mountains with height 900).  
+   - Assumes valid input (10 integers within the specified range).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <vector>
+   
+   void get_top_3_hills() {
+       std::vector<int> heights(10);
+       for (int i = 0; i < 10; i++) {
+           std::cin >> heights[i];
+       }
+       std::sort(heights.begin(), heights.end(), std::greater<int>());
+       for (int i = 0; i < 3; i++) {
+           std::cout << heights[i] << std::endl;
+       }
+   }
+   
+   int main() {
+       get_top_3_hills();
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- **C Alternative**: In C, you could manually sort the array (e.g., using bubble sort or `qsort`).  
+- **Input Handling**: The function expects exactly 10 integers as input.  
+- **Output Format**: Prints the top 3 heights in descending order, one per line.  
+
+This summary provides a structured way to understand and implement the solution in C/C++. Let me know if you'd like any modifications!"
+13588,6217,s517670939,p00001,u105191136,1551491523,C++,C++,cpp,Accepted,0.0,3140.0,308,4/4,1,s517670939,p00001,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00001/s517670939.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00001.txt,"#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int Size = 10;
+
+int main(void) {
+    int height[Size];
+    
+    for(int i = 0; i < Size; ++i) {
+        cin >> height[i];
+    }
+    sort(height, height + Size);
+    for(int i = 1; i <= 3; ++i) {
+        cout << height[Size - i] << endl;
+    }
+}
+","Here's the code summary for the ""List of Top 3 Hills"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `get_top_3_hills`
+
+2. **Purpose**:  
+   Reads heights of 10 mountains and prints the top 3 highest heights in descending order.
+
+3. **Inputs**:  
+   - `heights` (int array): An array of 10 integers representing mountain heights (0 ≤ height ≤ 10,000).
+
+4. **Outputs**:  
+   Prints the top 3 highest heights in descending order, one per line.
+
+5. **Key Operations/Logic**:  
+   - Reads 10 mountain heights from input.  
+   - Sorts the array in descending order.  
+   - Prints the first 3 elements of the sorted array.  
+
+6. **Dependencies**:  
+   - `<algorithm>` (for sorting in C++)  
+   - `<vector>` (optional, if using C++ containers)  
+
+7. **Edge Cases Handled**:  
+   - Handles duplicate heights (e.g., two mountains with height 900).  
+   - Assumes valid input (10 integers within the specified range).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <vector>
+   
+   void get_top_3_hills() {
+       std::vector<int> heights(10);
+       for (int i = 0; i < 10; i++) {
+           std::cin >> heights[i];
+       }
+       std::sort(heights.begin(), heights.end(), std::greater<int>());
+       for (int i = 0; i < 3; i++) {
+           std::cout << heights[i] << std::endl;
+       }
+   }
+   
+   int main() {
+       get_top_3_hills();
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- **C Alternative**: In C, you could manually sort the array (e.g., using bubble sort or `qsort`).  
+- **Input Handling**: The function expects exactly 10 integers as input.  
+- **Output Format**: Prints the top 3 heights in descending order, one per line.  
+
+This summary provides a structured way to understand and implement the solution in C/C++. Let me know if you'd like any modifications!"
+13662,6291,s770975946,p00001,u273981871,1409034817,C++,C++,cpp,Accepted,0.0,1220.0,322,4/4,1,s770975946,p00001,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00001/s770975946.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00001.txt,"#include <iostream>
+#include <cstdio>
+#include <queue>
+using namespace std;
+
+int main(void) {
+    priority_queue<int> que;
+    for(int r = 0; r < 10; r++) {
+        int input; cin >> input;
+        que.push(input);
+    }
+    for(int r = 0; r < 3; r++) {
+        cout << que.top() << endl; que.pop();
+    }
+    return(0);
+}","Here's the code summary for the ""List of Top 3 Hills"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `get_top_3_hills`
+
+2. **Purpose**:  
+   Reads heights of 10 mountains and prints the top 3 highest heights in descending order.
+
+3. **Inputs**:  
+   - `heights` (int array): An array of 10 integers representing mountain heights (0 ≤ height ≤ 10,000).
+
+4. **Outputs**:  
+   Prints the top 3 highest heights in descending order, one per line.
+
+5. **Key Operations/Logic**:  
+   - Reads 10 mountain heights from input.  
+   - Sorts the array in descending order.  
+   - Prints the first 3 elements of the sorted array.  
+
+6. **Dependencies**:  
+   - `<algorithm>` (for sorting in C++)  
+   - `<vector>` (optional, if using C++ containers)  
+
+7. **Edge Cases Handled**:  
+   - Handles duplicate heights (e.g., two mountains with height 900).  
+   - Assumes valid input (10 integers within the specified range).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <vector>
+   
+   void get_top_3_hills() {
+       std::vector<int> heights(10);
+       for (int i = 0; i < 10; i++) {
+           std::cin >> heights[i];
+       }
+       std::sort(heights.begin(), heights.end(), std::greater<int>());
+       for (int i = 0; i < 3; i++) {
+           std::cout << heights[i] << std::endl;
+       }
+   }
+   
+   int main() {
+       get_top_3_hills();
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- **C Alternative**: In C, you could manually sort the array (e.g., using bubble sort or `qsort`).  
+- **Input Handling**: The function expects exactly 10 integers as input.  
+- **Output Format**: Prints the top 3 heights in descending order, one per line.  
+
+This summary provides a structured way to understand and implement the solution in C/C++. Let me know if you'd like any modifications!"
+13793,6422,s367924941,p00001,u694202139,1417115681,C++,C++,cpp,Accepted,0.0,1160.0,308,4/4,1,s367924941,p00001,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00001/s367924941.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00001.txt,"#include<iostream>
+using namespace std;
+   
+int main(void){
+   
+  int h[10];
+  int a = 0;
+   
+
+    for(int i=0; i<10; i++){
+      cin >> h[i]; 
+    }
+   
+  for(int j=0; j<3; j++){
+    for(int i=0; i<10; i++){
+        if(h[a]<h[i]) a = i;
+    }
+    cout << h[a] << endl; 
+    h[a] = 0;
+  }  
+   
+  return 0;
+}","Here's the code summary for the ""List of Top 3 Hills"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `get_top_3_hills`
+
+2. **Purpose**:  
+   Reads heights of 10 mountains and prints the top 3 highest heights in descending order.
+
+3. **Inputs**:  
+   - `heights` (int array): An array of 10 integers representing mountain heights (0 ≤ height ≤ 10,000).
+
+4. **Outputs**:  
+   Prints the top 3 highest heights in descending order, one per line.
+
+5. **Key Operations/Logic**:  
+   - Reads 10 mountain heights from input.  
+   - Sorts the array in descending order.  
+   - Prints the first 3 elements of the sorted array.  
+
+6. **Dependencies**:  
+   - `<algorithm>` (for sorting in C++)  
+   - `<vector>` (optional, if using C++ containers)  
+
+7. **Edge Cases Handled**:  
+   - Handles duplicate heights (e.g., two mountains with height 900).  
+   - Assumes valid input (10 integers within the specified range).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <vector>
+   
+   void get_top_3_hills() {
+       std::vector<int> heights(10);
+       for (int i = 0; i < 10; i++) {
+           std::cin >> heights[i];
+       }
+       std::sort(heights.begin(), heights.end(), std::greater<int>());
+       for (int i = 0; i < 3; i++) {
+           std::cout << heights[i] << std::endl;
+       }
+   }
+   
+   int main() {
+       get_top_3_hills();
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- **C Alternative**: In C, you could manually sort the array (e.g., using bubble sort or `qsort`).  
+- **Input Handling**: The function expects exactly 10 integers as input.  
+- **Output Format**: Prints the top 3 heights in descending order, one per line.  
+
+This summary provides a structured way to understand and implement the solution in C/C++. Let me know if you'd like any modifications!"
+13847,6476,s710133052,p00001,u753085696,1421644628,C++,C++,cpp,Accepted,0.0,1200.0,403,4/4,1,s710133052,p00001,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00001/s710133052.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00001.txt,"#include<iostream>
+#include<vector>
+#include<algorithm>
+#include<string>
+using namespace std;
+
+int main(){
+
+  std::vector<unsigned int> heights;
+
+  char buf[100];
+  for (int i=0; i<10 ; i++){
+    std::cin >> buf;
+    heights.push_back(atoi(buf));
+  }
+
+  std::sort(heights.begin(),heights.end(),std::greater<int>());
+
+  for (int i=0; i<3;i++){
+    std::cout << heights[i] << std::endl;
+  }
+
+  return 0;
+}","Here's the code summary for the ""List of Top 3 Hills"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `get_top_3_hills`
+
+2. **Purpose**:  
+   Reads heights of 10 mountains and prints the top 3 highest heights in descending order.
+
+3. **Inputs**:  
+   - `heights` (int array): An array of 10 integers representing mountain heights (0 ≤ height ≤ 10,000).
+
+4. **Outputs**:  
+   Prints the top 3 highest heights in descending order, one per line.
+
+5. **Key Operations/Logic**:  
+   - Reads 10 mountain heights from input.  
+   - Sorts the array in descending order.  
+   - Prints the first 3 elements of the sorted array.  
+
+6. **Dependencies**:  
+   - `<algorithm>` (for sorting in C++)  
+   - `<vector>` (optional, if using C++ containers)  
+
+7. **Edge Cases Handled**:  
+   - Handles duplicate heights (e.g., two mountains with height 900).  
+   - Assumes valid input (10 integers within the specified range).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <vector>
+   
+   void get_top_3_hills() {
+       std::vector<int> heights(10);
+       for (int i = 0; i < 10; i++) {
+           std::cin >> heights[i];
+       }
+       std::sort(heights.begin(), heights.end(), std::greater<int>());
+       for (int i = 0; i < 3; i++) {
+           std::cout << heights[i] << std::endl;
+       }
+   }
+   
+   int main() {
+       get_top_3_hills();
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- **C Alternative**: In C, you could manually sort the array (e.g., using bubble sort or `qsort`).  
+- **Input Handling**: The function expects exactly 10 integers as input.  
+- **Output Format**: Prints the top 3 heights in descending order, one per line.  
+
+This summary provides a structured way to understand and implement the solution in C/C++. Let me know if you'd like any modifications!"
+13548,6177,s823826767,p00001,u873339326,1535596148,C++,C++,cpp,Accepted,0.0,3104.0,285,4/4,1,s823826767,p00001,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00001/s823826767.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00001.txt,"#include<iostream>
+using namespace std;
+int main() {
+	int a[11],b;
+	for(int y=0;y<10;y++){
+		cin>>a[y];
+	}
+	for(int y=0;y<10;y++){
+		for(int i=y+1;i<10;i++){
+			if(a[y]<a[i]){
+				b=a[y];
+				a[y]=a[i];
+				a[i]=b;
+			}
+		}
+	}
+	for(int y=0;y<3;y++){
+		cout<<a[y]<<endl;
+	}
+return 0;
+}
+","Here's the code summary for the ""List of Top 3 Hills"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `get_top_3_hills`
+
+2. **Purpose**:  
+   Reads heights of 10 mountains and prints the top 3 highest heights in descending order.
+
+3. **Inputs**:  
+   - `heights` (int array): An array of 10 integers representing mountain heights (0 ≤ height ≤ 10,000).
+
+4. **Outputs**:  
+   Prints the top 3 highest heights in descending order, one per line.
+
+5. **Key Operations/Logic**:  
+   - Reads 10 mountain heights from input.  
+   - Sorts the array in descending order.  
+   - Prints the first 3 elements of the sorted array.  
+
+6. **Dependencies**:  
+   - `<algorithm>` (for sorting in C++)  
+   - `<vector>` (optional, if using C++ containers)  
+
+7. **Edge Cases Handled**:  
+   - Handles duplicate heights (e.g., two mountains with height 900).  
+   - Assumes valid input (10 integers within the specified range).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <vector>
+   
+   void get_top_3_hills() {
+       std::vector<int> heights(10);
+       for (int i = 0; i < 10; i++) {
+           std::cin >> heights[i];
+       }
+       std::sort(heights.begin(), heights.end(), std::greater<int>());
+       for (int i = 0; i < 3; i++) {
+           std::cout << heights[i] << std::endl;
+       }
+   }
+   
+   int main() {
+       get_top_3_hills();
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- **C Alternative**: In C, you could manually sort the array (e.g., using bubble sort or `qsort`).  
+- **Input Handling**: The function expects exactly 10 integers as input.  
+- **Output Format**: Prints the top 3 heights in descending order, one per line.  
+
+This summary provides a structured way to understand and implement the solution in C/C++. Let me know if you'd like any modifications!"
+21356,5841,s966929830,p00002,u260877830,1411646926,C++,C++,cpp,Accepted,0.0,1028.0,266,1/1,1,s966929830,p00002,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00002/s966929830.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00002.txt,"#include <cstdio>
+using namespace std;
+
+int log(int a, int X){
+	int n = 0;
+	
+	while(X > 0){
+		X /= a;
+		n++;
+	}
+	
+	return n;
+}
+
+int main(){
+	int a, b, sum;
+	
+	while(scanf(""%d%d"", &a, &b) != EOF){
+		
+		sum = a + b;
+		
+		printf(""%d\n"", log(10, sum));
+	}
+	
+	return 0;
+}","Here's the code summary for the ""Digit Number"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `count_digits_sum`
+
+2. **Purpose**:  
+   Computes the number of digits in the sum of two given integers.
+
+3. **Inputs**:  
+   - `a` (int): First non-negative integer (0 ≤ a ≤ 1,000,000).  
+   - `b` (int): Second non-negative integer (0 ≤ b ≤ 1,000,000).  
+
+4. **Outputs**:  
+   - Returns the number of digits in `a + b` (int).  
+
+5. **Key Operations/Logic**:  
+   - Sums the two input integers (`a + b`).  
+   - Handles the special case where the sum is `0` (1 digit).  
+   - For non-zero sums, calculates the number of digits using logarithm (`log10(sum) + 1`) or iterative division by 10.  
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output.  
+   - `<math.h>` (optional, if using `log10`).  
+
+7. **Edge Cases Handled**:  
+   - Sum is `0` (returns 1 digit).  
+   - Large sums (up to 2,000,000).  
+   - Multiple test cases (up to 200).  
+
+8. **Example Usage**:  
+   ```c
+   int main() {
+       int a, b;
+       while (scanf(""%d %d"", &a, &b) != EOF) {
+           printf(""%d\n"", count_digits_sum(a, b));
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The function should read inputs until EOF (end-of-file) is encountered.  
+- The sample outputs correspond to:  
+  - `5 + 7 = 12` → 2 digits.  
+  - `1 + 99 = 100` → 3 digits.  
+  - `1000 + 999 = 1999` → 4 digits.  
+- The solution avoids converting the sum to a string to count digits (efficient for constraints)."
+21371,5856,s003855013,p00002,u011621222,1412487945,C++,C++,cpp,Accepted,0.0,1160.0,189,1/1,1,s003855013,p00002,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00002/s003855013.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00002.txt,"#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,n=0; 
+		while (cin>>a>>b)
+		{
+		
+		c=a+b;
+		while(c!=0)
+		{
+			c=c/10;
+			n=n+1;
+			
+		}
+		cout<<n<<endl;
+		n=0;
+	    }
+} ","Here's the code summary for the ""Digit Number"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `count_digits_sum`
+
+2. **Purpose**:  
+   Computes the number of digits in the sum of two given integers.
+
+3. **Inputs**:  
+   - `a` (int): First non-negative integer (0 ≤ a ≤ 1,000,000).  
+   - `b` (int): Second non-negative integer (0 ≤ b ≤ 1,000,000).  
+
+4. **Outputs**:  
+   - Returns the number of digits in `a + b` (int).  
+
+5. **Key Operations/Logic**:  
+   - Sums the two input integers (`a + b`).  
+   - Handles the special case where the sum is `0` (1 digit).  
+   - For non-zero sums, calculates the number of digits using logarithm (`log10(sum) + 1`) or iterative division by 10.  
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output.  
+   - `<math.h>` (optional, if using `log10`).  
+
+7. **Edge Cases Handled**:  
+   - Sum is `0` (returns 1 digit).  
+   - Large sums (up to 2,000,000).  
+   - Multiple test cases (up to 200).  
+
+8. **Example Usage**:  
+   ```c
+   int main() {
+       int a, b;
+       while (scanf(""%d %d"", &a, &b) != EOF) {
+           printf(""%d\n"", count_digits_sum(a, b));
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The function should read inputs until EOF (end-of-file) is encountered.  
+- The sample outputs correspond to:  
+  - `5 + 7 = 12` → 2 digits.  
+  - `1 + 99 = 100` → 3 digits.  
+  - `1000 + 999 = 1999` → 4 digits.  
+- The solution avoids converting the sum to a string to count digits (efficient for constraints)."
+22475,6960,s632636695,p00002,u813832396,1462780843,C++,C++,cpp,Accepted,0.0,1204.0,219,1/1,1,s632636695,p00002,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00002/s632636695.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00002.txt,"#include <iostream>
+#include<cmath>
+using namespace std;
+
+int main() {
+    int a, b;
+    int sum;
+    while(cin >> a >> b){
+        sum = 0;
+        sum = log10(a+b)+1;
+        cout << sum << endl;
+    }
+    return 0;
+}","Here's the code summary for the ""Digit Number"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `count_digits_sum`
+
+2. **Purpose**:  
+   Computes the number of digits in the sum of two given integers.
+
+3. **Inputs**:  
+   - `a` (int): First non-negative integer (0 ≤ a ≤ 1,000,000).  
+   - `b` (int): Second non-negative integer (0 ≤ b ≤ 1,000,000).  
+
+4. **Outputs**:  
+   - Returns the number of digits in `a + b` (int).  
+
+5. **Key Operations/Logic**:  
+   - Sums the two input integers (`a + b`).  
+   - Handles the special case where the sum is `0` (1 digit).  
+   - For non-zero sums, calculates the number of digits using logarithm (`log10(sum) + 1`) or iterative division by 10.  
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output.  
+   - `<math.h>` (optional, if using `log10`).  
+
+7. **Edge Cases Handled**:  
+   - Sum is `0` (returns 1 digit).  
+   - Large sums (up to 2,000,000).  
+   - Multiple test cases (up to 200).  
+
+8. **Example Usage**:  
+   ```c
+   int main() {
+       int a, b;
+       while (scanf(""%d %d"", &a, &b) != EOF) {
+           printf(""%d\n"", count_digits_sum(a, b));
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The function should read inputs until EOF (end-of-file) is encountered.  
+- The sample outputs correspond to:  
+  - `5 + 7 = 12` → 2 digits.  
+  - `1 + 99 = 100` → 3 digits.  
+  - `1000 + 999 = 1999` → 4 digits.  
+- The solution avoids converting the sum to a string to count digits (efficient for constraints)."
+22991,7476,s188424736,p00002,u316514443,1480515112,C++,C++,cpp,Accepted,0.0,3160.0,351,1/1,1,s188424736,p00002,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00002/s188424736.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00002.txt,"#include <stdio.h>
+#include <iostream>
+
+int main(){
+  int a, b, c;
+  int i;
+  int num;
+  
+  while(scanf(""%d"", &a)!=EOF){
+    scanf(""%d"", &b);
+    
+    i = 10;
+    num = 1;
+    c = a + b;
+    while(1){
+      if(c/i!=0){
+        num++;
+        i *= 10;
+      }else{
+        break;
+      }
+    }
+    std::cout << num << std::endl;
+  }
+  
+  return 0;
+  
+}","Here's the code summary for the ""Digit Number"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `count_digits_sum`
+
+2. **Purpose**:  
+   Computes the number of digits in the sum of two given integers.
+
+3. **Inputs**:  
+   - `a` (int): First non-negative integer (0 ≤ a ≤ 1,000,000).  
+   - `b` (int): Second non-negative integer (0 ≤ b ≤ 1,000,000).  
+
+4. **Outputs**:  
+   - Returns the number of digits in `a + b` (int).  
+
+5. **Key Operations/Logic**:  
+   - Sums the two input integers (`a + b`).  
+   - Handles the special case where the sum is `0` (1 digit).  
+   - For non-zero sums, calculates the number of digits using logarithm (`log10(sum) + 1`) or iterative division by 10.  
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output.  
+   - `<math.h>` (optional, if using `log10`).  
+
+7. **Edge Cases Handled**:  
+   - Sum is `0` (returns 1 digit).  
+   - Large sums (up to 2,000,000).  
+   - Multiple test cases (up to 200).  
+
+8. **Example Usage**:  
+   ```c
+   int main() {
+       int a, b;
+       while (scanf(""%d %d"", &a, &b) != EOF) {
+           printf(""%d\n"", count_digits_sum(a, b));
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The function should read inputs until EOF (end-of-file) is encountered.  
+- The sample outputs correspond to:  
+  - `5 + 7 = 12` → 2 digits.  
+  - `1 + 99 = 100` → 3 digits.  
+  - `1000 + 999 = 1999` → 4 digits.  
+- The solution avoids converting the sum to a string to count digits (efficient for constraints)."
+21239,5724,s261910242,p00002,u011621222,1556371297,C++,C++,cpp,Accepted,0.0,2580.0,319,1/1,1,s261910242,p00002,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00002/s261910242.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00002.txt,"/* AOJ0002 Digit Number */
+ 
+#include <stdio.h>
+ 
+int sum_digits(int n, int base)
+{
+    int count = 0;
+ 
+    while(n) {
+        count++;
+        n /= base;
+    }
+ 
+    return count;
+}
+ 
+int main(void)
+{
+    int a, b;
+ 
+    while(~scanf(""%d%d"", &a, &b))
+        printf(""%d\n"", sum_digits(a + b, 10));
+ 
+    return 0;
+}
+
+","Here's the code summary for the ""Digit Number"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `count_digits_sum`
+
+2. **Purpose**:  
+   Computes the number of digits in the sum of two given integers.
+
+3. **Inputs**:  
+   - `a` (int): First non-negative integer (0 ≤ a ≤ 1,000,000).  
+   - `b` (int): Second non-negative integer (0 ≤ b ≤ 1,000,000).  
+
+4. **Outputs**:  
+   - Returns the number of digits in `a + b` (int).  
+
+5. **Key Operations/Logic**:  
+   - Sums the two input integers (`a + b`).  
+   - Handles the special case where the sum is `0` (1 digit).  
+   - For non-zero sums, calculates the number of digits using logarithm (`log10(sum) + 1`) or iterative division by 10.  
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output.  
+   - `<math.h>` (optional, if using `log10`).  
+
+7. **Edge Cases Handled**:  
+   - Sum is `0` (returns 1 digit).  
+   - Large sums (up to 2,000,000).  
+   - Multiple test cases (up to 200).  
+
+8. **Example Usage**:  
+   ```c
+   int main() {
+       int a, b;
+       while (scanf(""%d %d"", &a, &b) != EOF) {
+           printf(""%d\n"", count_digits_sum(a, b));
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The function should read inputs until EOF (end-of-file) is encountered.  
+- The sample outputs correspond to:  
+  - `5 + 7 = 12` → 2 digits.  
+  - `1 + 99 = 100` → 3 digits.  
+  - `1000 + 999 = 1999` → 4 digits.  
+- The solution avoids converting the sum to a string to count digits (efficient for constraints)."
+21889,6374,s597547245,p00002,u072632578,1441264277,C++,C++,cpp,Accepted,0.0,1196.0,290,1/1,1,s597547245,p00002,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00002/s597547245.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00002.txt,"#include <iostream>
+#include <cstdio>
+
+using namespace std;
+
+int main() {
+    int a, b;
+    char c[10];
+    while (cin >> a >> b) {
+        sprintf(c, ""%d"", a+b);
+        int i = 0;
+        while (c[i] != '\0') {
+            ++i;
+        }
+
+        cout << i << endl;
+    }
+
+    return 0;
+}","Here's the code summary for the ""Digit Number"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `count_digits_sum`
+
+2. **Purpose**:  
+   Computes the number of digits in the sum of two given integers.
+
+3. **Inputs**:  
+   - `a` (int): First non-negative integer (0 ≤ a ≤ 1,000,000).  
+   - `b` (int): Second non-negative integer (0 ≤ b ≤ 1,000,000).  
+
+4. **Outputs**:  
+   - Returns the number of digits in `a + b` (int).  
+
+5. **Key Operations/Logic**:  
+   - Sums the two input integers (`a + b`).  
+   - Handles the special case where the sum is `0` (1 digit).  
+   - For non-zero sums, calculates the number of digits using logarithm (`log10(sum) + 1`) or iterative division by 10.  
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output.  
+   - `<math.h>` (optional, if using `log10`).  
+
+7. **Edge Cases Handled**:  
+   - Sum is `0` (returns 1 digit).  
+   - Large sums (up to 2,000,000).  
+   - Multiple test cases (up to 200).  
+
+8. **Example Usage**:  
+   ```c
+   int main() {
+       int a, b;
+       while (scanf(""%d %d"", &a, &b) != EOF) {
+           printf(""%d\n"", count_digits_sum(a, b));
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The function should read inputs until EOF (end-of-file) is encountered.  
+- The sample outputs correspond to:  
+  - `5 + 7 = 12` → 2 digits.  
+  - `1 + 99 = 100` → 3 digits.  
+  - `1000 + 999 = 1999` → 4 digits.  
+- The solution avoids converting the sum to a string to count digits (efficient for constraints)."
+21625,6110,s736818231,p00002,u258803126,1428480710,C++,C++,cpp,Accepted,0.0,1028.0,260,1/1,1,s736818231,p00002,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00002/s736818231.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00002.txt,"#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    while (scanf(""%d %d"", &a, &b) != EOF) {
+        int result = a + b;
+        int digit = 0;
+        while (result != 0) {
+        digit++;
+        result /= 10;
+    }
+
+    printf(""%d\n"", digit);
+    }
+}","Here's the code summary for the ""Digit Number"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `count_digits_sum`
+
+2. **Purpose**:  
+   Computes the number of digits in the sum of two given integers.
+
+3. **Inputs**:  
+   - `a` (int): First non-negative integer (0 ≤ a ≤ 1,000,000).  
+   - `b` (int): Second non-negative integer (0 ≤ b ≤ 1,000,000).  
+
+4. **Outputs**:  
+   - Returns the number of digits in `a + b` (int).  
+
+5. **Key Operations/Logic**:  
+   - Sums the two input integers (`a + b`).  
+   - Handles the special case where the sum is `0` (1 digit).  
+   - For non-zero sums, calculates the number of digits using logarithm (`log10(sum) + 1`) or iterative division by 10.  
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output.  
+   - `<math.h>` (optional, if using `log10`).  
+
+7. **Edge Cases Handled**:  
+   - Sum is `0` (returns 1 digit).  
+   - Large sums (up to 2,000,000).  
+   - Multiple test cases (up to 200).  
+
+8. **Example Usage**:  
+   ```c
+   int main() {
+       int a, b;
+       while (scanf(""%d %d"", &a, &b) != EOF) {
+           printf(""%d\n"", count_digits_sum(a, b));
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The function should read inputs until EOF (end-of-file) is encountered.  
+- The sample outputs correspond to:  
+  - `5 + 7 = 12` → 2 digits.  
+  - `1 + 99 = 100` → 3 digits.  
+  - `1000 + 999 = 1999` → 4 digits.  
+- The solution avoids converting the sum to a string to count digits (efficient for constraints)."
+21810,6295,s640101878,p00002,u399801521,1436012013,C++,C++,cpp,Accepted,0.0,1160.0,186,1/1,1,s640101878,p00002,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00002/s640101878.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00002.txt,"#include<iostream>
+using namespace std;
+
+int main(){
+	int a,b,n,m;
+	
+	while(cin>>a>>b){
+	n = a+b;
+	m = 0;
+		while(n!=0){
+			m++;
+			n /= 10;
+			
+		}
+			
+	cout<<m<<endl;
+	}
+	
+	return 0;
+}","Here's the code summary for the ""Digit Number"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `count_digits_sum`
+
+2. **Purpose**:  
+   Computes the number of digits in the sum of two given integers.
+
+3. **Inputs**:  
+   - `a` (int): First non-negative integer (0 ≤ a ≤ 1,000,000).  
+   - `b` (int): Second non-negative integer (0 ≤ b ≤ 1,000,000).  
+
+4. **Outputs**:  
+   - Returns the number of digits in `a + b` (int).  
+
+5. **Key Operations/Logic**:  
+   - Sums the two input integers (`a + b`).  
+   - Handles the special case where the sum is `0` (1 digit).  
+   - For non-zero sums, calculates the number of digits using logarithm (`log10(sum) + 1`) or iterative division by 10.  
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output.  
+   - `<math.h>` (optional, if using `log10`).  
+
+7. **Edge Cases Handled**:  
+   - Sum is `0` (returns 1 digit).  
+   - Large sums (up to 2,000,000).  
+   - Multiple test cases (up to 200).  
+
+8. **Example Usage**:  
+   ```c
+   int main() {
+       int a, b;
+       while (scanf(""%d %d"", &a, &b) != EOF) {
+           printf(""%d\n"", count_digits_sum(a, b));
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The function should read inputs until EOF (end-of-file) is encountered.  
+- The sample outputs correspond to:  
+  - `5 + 7 = 12` → 2 digits.  
+  - `1 + 99 = 100` → 3 digits.  
+  - `1000 + 999 = 1999` → 4 digits.  
+- The solution avoids converting the sum to a string to count digits (efficient for constraints)."
+22233,6718,s347606979,p00002,u797095866,1448955098,C++,C++,cpp,Accepted,0.0,1204.0,410,1/1,1,s347606979,p00002,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00002/s347606979.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00002.txt,"#define _CRT_SECURE_NO_WARNINGS
+#define M_PI 3.14159265358979
+#include <iostream>
+#include <stdio.h>
+#include <string>
+#include <math.h>
+#include<iomanip>
+#include<vector>
+#include<cmath>
+#include <algorithm>
+
+using namespace std;
+
+int main(){
+	int a,b;
+	while (scanf(""%d %d"",&a,&b) != -1){
+		int c = a + b;
+		int count = 0;
+		while (c > 0){
+			c /= 10;
+			count++;
+		}
+		cout << count << endl;
+	}
+	return 0;
+}","Here's the code summary for the ""Digit Number"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `count_digits_sum`
+
+2. **Purpose**:  
+   Computes the number of digits in the sum of two given integers.
+
+3. **Inputs**:  
+   - `a` (int): First non-negative integer (0 ≤ a ≤ 1,000,000).  
+   - `b` (int): Second non-negative integer (0 ≤ b ≤ 1,000,000).  
+
+4. **Outputs**:  
+   - Returns the number of digits in `a + b` (int).  
+
+5. **Key Operations/Logic**:  
+   - Sums the two input integers (`a + b`).  
+   - Handles the special case where the sum is `0` (1 digit).  
+   - For non-zero sums, calculates the number of digits using logarithm (`log10(sum) + 1`) or iterative division by 10.  
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output.  
+   - `<math.h>` (optional, if using `log10`).  
+
+7. **Edge Cases Handled**:  
+   - Sum is `0` (returns 1 digit).  
+   - Large sums (up to 2,000,000).  
+   - Multiple test cases (up to 200).  
+
+8. **Example Usage**:  
+   ```c
+   int main() {
+       int a, b;
+       while (scanf(""%d %d"", &a, &b) != EOF) {
+           printf(""%d\n"", count_digits_sum(a, b));
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The function should read inputs until EOF (end-of-file) is encountered.  
+- The sample outputs correspond to:  
+  - `5 + 7 = 12` → 2 digits.  
+  - `1 + 99 = 100` → 3 digits.  
+  - `1000 + 999 = 1999` → 4 digits.  
+- The solution avoids converting the sum to a string to count digits (efficient for constraints)."
+21769,6254,s885715109,p00002,u610017377,1434364895,C++,C++,cpp,Accepted,0.0,1028.0,306,1/1,1,s885715109,p00002,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00002/s885715109.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00002.txt,"#include <stdio.h>
+
+int main(void){
+	unsigned long int i,j,sum;
+	unsigned int count = 0;
+	while(1){
+		if(scanf(""%ld %ld"",&i,&j)==EOF)	break;
+		
+		sum = i+j;
+		count = 0;
+		for(unsigned long int dec=10;dec<=1000000;dec*=10){
+			if(sum < dec)	break;
+			count ++;
+		}
+		printf(""%d\n"",count+1);
+	}
+	return 0;
+}","Here's the code summary for the ""Digit Number"" problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `count_digits_sum`
+
+2. **Purpose**:  
+   Computes the number of digits in the sum of two given integers.
+
+3. **Inputs**:  
+   - `a` (int): First non-negative integer (0 ≤ a ≤ 1,000,000).  
+   - `b` (int): Second non-negative integer (0 ≤ b ≤ 1,000,000).  
+
+4. **Outputs**:  
+   - Returns the number of digits in `a + b` (int).  
+
+5. **Key Operations/Logic**:  
+   - Sums the two input integers (`a + b`).  
+   - Handles the special case where the sum is `0` (1 digit).  
+   - For non-zero sums, calculates the number of digits using logarithm (`log10(sum) + 1`) or iterative division by 10.  
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output.  
+   - `<math.h>` (optional, if using `log10`).  
+
+7. **Edge Cases Handled**:  
+   - Sum is `0` (returns 1 digit).  
+   - Large sums (up to 2,000,000).  
+   - Multiple test cases (up to 200).  
+
+8. **Example Usage**:  
+   ```c
+   int main() {
+       int a, b;
+       while (scanf(""%d %d"", &a, &b) != EOF) {
+           printf(""%d\n"", count_digits_sum(a, b));
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The function should read inputs until EOF (end-of-file) is encountered.  
+- The sample outputs correspond to:  
+  - `5 + 7 = 12` → 2 digits.  
+  - `1 + 99 = 100` → 3 digits.  
+  - `1000 + 999 = 1999` → 4 digits.  
+- The solution avoids converting the sum to a string to count digits (efficient for constraints)."
+28381,4635,s613963458,p00003,u222957942,1434337921,C++,C++11,cpp,Accepted,0.0,1224.0,1068,1/1,1,s613963458,p00003,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00003/s613963458.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00003.txt,"#include<iostream>
+#include<math.h>
+
+using namespace std;
+
+int main()
+{
+        double c[3];
+        int i = 0;
+        int temp = 0;
+        int data = 0;
+        int j = 0;
+        int count = 0;
+        double hoge,fuga;
+
+        cin >> data;
+
+        while(j<data)
+        {
+                count = 0;
+                cin >> c[0] >> c[1] >> c[2];
+                while(count<2){
+                for(i=0;i<2;i++)
+                {
+                        if(c[i]<c[i+1])
+                        {
+                                temp = c[i];
+                                c[i]=c[i+1];
+                                c[i+1]=temp;
+                        }
+
+                }
+                count++;
+                }
+                hoge = pow(c[0],2.0);
+                fuga = pow(c[1],2.0) + pow(c[2],2.0);
+
+                if(hoge == fuga)
+                {
+                        cout << ""YES"" << endl;
+                }
+                else
+                {
+                        cout << ""NO"" << endl;
+                }
+
+                j++;
+        }
+}","Here's the code summary for the ""Is it a Right Triangle?"" problem:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name**:  
+   `is_right_triangle`  
+
+2. **Purpose**:  
+   Determines whether three given side lengths form a right triangle.  
+
+3. **Inputs**:  
+   - `a, b, c` (integers): The lengths of the three sides of a triangle.  
+
+4. **Outputs**:  
+   - `""YES""` if the sides form a right triangle, `""NO""` otherwise.  
+
+5. **Key Operations/Logic**:  
+   - Checks the Pythagorean theorem: \(a^2 + b^2 = c^2\) (or any permutation).  
+   - Sorts the sides to identify the hypotenuse (longest side).  
+   - Compares the sum of squares of the two shorter sides with the square of the longest side.  
+
+6. **Dependencies**:  
+   - None (standard arithmetic operations).  
+
+7. **Edge Cases Handled**:  
+   - Ensures the sides form a valid triangle (sum of any two sides > third side).  
+   - Handles multiple test cases efficiently.  
+
+8. **Example Usage (Optional)**:  
+   ```cpp
+   cout << is_right_triangle(4, 3, 5) << endl;  // Output: ""YES""  
+   cout << is_right_triangle(8, 8, 8) << endl;  // Output: ""NO""  
+   ```
+
+---
+
+### Additional Notes for Implementation:  
+- **Input Handling**: Read `N` test cases first, then process each triplet.  
+- **Efficiency**: The solution should handle the upper constraint (\(N = 1000\)) with minimal overhead.  
+- **Validation**: Though the problem guarantees valid inputs, a robust solution might verify triangle validity (e.g., all sides > 0).  
+
+Would you like a reference implementation in C/C++?"
+28018,4272,s865223077,p00003,u869897832,1404722615,C++,C++,cpp,Accepted,0.0,1008.0,552,1/1,1,s865223077,p00003,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00003/s865223077.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00003.txt,"#include<stdio.h>
+
+void right_triangle(int x, int y, int z)
+{
+    int xx = x * x;
+    int yy = y * y;
+    int zz = z * z;
+    if (xx == yy + zz) {
+        printf(""YES\n"");
+    } else if (yy == xx + zz) {
+        printf(""YES\n"");
+    } else if (zz == xx + yy) {
+        printf(""YES\n"");
+    } else {
+        printf(""NO\n"");
+    }
+}    
+
+int main(void)
+{
+    int n;
+    scanf(""%d"", &n);
+    for (int i = 0; i < n; i++) {
+        int r[3];
+        scanf(""%d %d %d"", &r[0], &r[1], &r[2]);
+        right_triangle(r[0], r[1], r[2]);
+    }
+    return 0;
+}    ","Here's the code summary for the ""Is it a Right Triangle?"" problem:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name**:  
+   `is_right_triangle`  
+
+2. **Purpose**:  
+   Determines whether three given side lengths form a right triangle.  
+
+3. **Inputs**:  
+   - `a, b, c` (integers): The lengths of the three sides of a triangle.  
+
+4. **Outputs**:  
+   - `""YES""` if the sides form a right triangle, `""NO""` otherwise.  
+
+5. **Key Operations/Logic**:  
+   - Checks the Pythagorean theorem: \(a^2 + b^2 = c^2\) (or any permutation).  
+   - Sorts the sides to identify the hypotenuse (longest side).  
+   - Compares the sum of squares of the two shorter sides with the square of the longest side.  
+
+6. **Dependencies**:  
+   - None (standard arithmetic operations).  
+
+7. **Edge Cases Handled**:  
+   - Ensures the sides form a valid triangle (sum of any two sides > third side).  
+   - Handles multiple test cases efficiently.  
+
+8. **Example Usage (Optional)**:  
+   ```cpp
+   cout << is_right_triangle(4, 3, 5) << endl;  // Output: ""YES""  
+   cout << is_right_triangle(8, 8, 8) << endl;  // Output: ""NO""  
+   ```
+
+---
+
+### Additional Notes for Implementation:  
+- **Input Handling**: Read `N` test cases first, then process each triplet.  
+- **Efficiency**: The solution should handle the upper constraint (\(N = 1000\)) with minimal overhead.  
+- **Validation**: Though the problem guarantees valid inputs, a robust solution might verify triangle validity (e.g., all sides > 0).  
+
+Would you like a reference implementation in C/C++?"
+28822,5076,s828934034,p00003,u135649385,1460744875,C++,C++,cpp,Accepted,0.0,1172.0,333,1/1,1,s828934034,p00003,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00003/s828934034.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00003.txt,"#include<iostream>
+#include<algorithm>
+using namespace std;
+ 
+int main() {
+  int N;
+  cin >> N;
+
+  for (int i = 0; i < N; i++) {
+    int array[3];
+    cin >> array[0] >> array[1] >> array[2];
+    sort(array, array+3);
+    cout << ((array[0]*array[0]+array[1]*array[1] == array[2]*array[2]) ? ""YES"" : ""NO"") << endl;
+  }
+
+  return 0;
+}","Here's the code summary for the ""Is it a Right Triangle?"" problem:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name**:  
+   `is_right_triangle`  
+
+2. **Purpose**:  
+   Determines whether three given side lengths form a right triangle.  
+
+3. **Inputs**:  
+   - `a, b, c` (integers): The lengths of the three sides of a triangle.  
+
+4. **Outputs**:  
+   - `""YES""` if the sides form a right triangle, `""NO""` otherwise.  
+
+5. **Key Operations/Logic**:  
+   - Checks the Pythagorean theorem: \(a^2 + b^2 = c^2\) (or any permutation).  
+   - Sorts the sides to identify the hypotenuse (longest side).  
+   - Compares the sum of squares of the two shorter sides with the square of the longest side.  
+
+6. **Dependencies**:  
+   - None (standard arithmetic operations).  
+
+7. **Edge Cases Handled**:  
+   - Ensures the sides form a valid triangle (sum of any two sides > third side).  
+   - Handles multiple test cases efficiently.  
+
+8. **Example Usage (Optional)**:  
+   ```cpp
+   cout << is_right_triangle(4, 3, 5) << endl;  // Output: ""YES""  
+   cout << is_right_triangle(8, 8, 8) << endl;  // Output: ""NO""  
+   ```
+
+---
+
+### Additional Notes for Implementation:  
+- **Input Handling**: Read `N` test cases first, then process each triplet.  
+- **Efficiency**: The solution should handle the upper constraint (\(N = 1000\)) with minimal overhead.  
+- **Validation**: Though the problem guarantees valid inputs, a robust solution might verify triangle validity (e.g., all sides > 0).  
+
+Would you like a reference implementation in C/C++?"
+28296,4550,s796642372,p00003,u867824281,1431507240,C++,C++,cpp,Accepted,0.0,1156.0,328,1/1,1,s796642372,p00003,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00003/s796642372.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00003.txt,"#include<iostream>
+int main(void){
+	int a,b,c,n,i;
+	std::cin>>n;
+	for(i=0;i<n;i++){
+		std::cin>>a>>b>>c;
+		if(a*a==b*b+c*c)std::cout<<""YES""<<std::endl;
+		else if(b*b==a*a+c*c)std::cout<<""YES""<<std::endl;
+		else if(c*c==a*a+b*b)std::cout<<""YES""<<std::endl;
+		else                 std::cout<<""NO""<<std::endl;
+		}
+
+
+
+	 return 0;
+	}","Here's the code summary for the ""Is it a Right Triangle?"" problem:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name**:  
+   `is_right_triangle`  
+
+2. **Purpose**:  
+   Determines whether three given side lengths form a right triangle.  
+
+3. **Inputs**:  
+   - `a, b, c` (integers): The lengths of the three sides of a triangle.  
+
+4. **Outputs**:  
+   - `""YES""` if the sides form a right triangle, `""NO""` otherwise.  
+
+5. **Key Operations/Logic**:  
+   - Checks the Pythagorean theorem: \(a^2 + b^2 = c^2\) (or any permutation).  
+   - Sorts the sides to identify the hypotenuse (longest side).  
+   - Compares the sum of squares of the two shorter sides with the square of the longest side.  
+
+6. **Dependencies**:  
+   - None (standard arithmetic operations).  
+
+7. **Edge Cases Handled**:  
+   - Ensures the sides form a valid triangle (sum of any two sides > third side).  
+   - Handles multiple test cases efficiently.  
+
+8. **Example Usage (Optional)**:  
+   ```cpp
+   cout << is_right_triangle(4, 3, 5) << endl;  // Output: ""YES""  
+   cout << is_right_triangle(8, 8, 8) << endl;  // Output: ""NO""  
+   ```
+
+---
+
+### Additional Notes for Implementation:  
+- **Input Handling**: Read `N` test cases first, then process each triplet.  
+- **Efficiency**: The solution should handle the upper constraint (\(N = 1000\)) with minimal overhead.  
+- **Validation**: Though the problem guarantees valid inputs, a robust solution might verify triangle validity (e.g., all sides > 0).  
+
+Would you like a reference implementation in C/C++?"
+28311,4565,s219114469,p00003,u092010477,1431676179,C++,C++11,cpp,Accepted,0.0,1268.0,620,1/1,1,s219114469,p00003,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00003/s219114469.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00003.txt,"#include <iostream>
+#include <vector>
+#include <array>
+#include <algorithm>
+#include <string>
+#include <cmath>
+
+using namespace std;
+
+int main(){
+	vector<string> results;
+	int N = 0;
+	cin >> N;
+	for(int i = 0; i < N; i++){
+		array<int, 3> triangle_vertex;
+		for(int j = 0; j < 3; j++){
+			cin >> triangle_vertex[j];
+		}
+		sort(begin(triangle_vertex), end(triangle_vertex));
+		if(pow(triangle_vertex[0], 2) + pow(triangle_vertex[1], 2) == pow(triangle_vertex[2], 2)){
+			results.push_back(""YES"");
+		}
+		else{
+			results.push_back(""NO"");
+		}
+	}
+	for(const auto& result : results){
+		cout << result << endl;
+	}
+	return 0;
+}","Here's the code summary for the ""Is it a Right Triangle?"" problem:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name**:  
+   `is_right_triangle`  
+
+2. **Purpose**:  
+   Determines whether three given side lengths form a right triangle.  
+
+3. **Inputs**:  
+   - `a, b, c` (integers): The lengths of the three sides of a triangle.  
+
+4. **Outputs**:  
+   - `""YES""` if the sides form a right triangle, `""NO""` otherwise.  
+
+5. **Key Operations/Logic**:  
+   - Checks the Pythagorean theorem: \(a^2 + b^2 = c^2\) (or any permutation).  
+   - Sorts the sides to identify the hypotenuse (longest side).  
+   - Compares the sum of squares of the two shorter sides with the square of the longest side.  
+
+6. **Dependencies**:  
+   - None (standard arithmetic operations).  
+
+7. **Edge Cases Handled**:  
+   - Ensures the sides form a valid triangle (sum of any two sides > third side).  
+   - Handles multiple test cases efficiently.  
+
+8. **Example Usage (Optional)**:  
+   ```cpp
+   cout << is_right_triangle(4, 3, 5) << endl;  // Output: ""YES""  
+   cout << is_right_triangle(8, 8, 8) << endl;  // Output: ""NO""  
+   ```
+
+---
+
+### Additional Notes for Implementation:  
+- **Input Handling**: Read `N` test cases first, then process each triplet.  
+- **Efficiency**: The solution should handle the upper constraint (\(N = 1000\)) with minimal overhead.  
+- **Validation**: Though the problem guarantees valid inputs, a robust solution might verify triangle validity (e.g., all sides > 0).  
+
+Would you like a reference implementation in C/C++?"
+28931,5185,s090234153,p00003,u346633424,1464249436,C++,C++,cpp,Accepted,0.0,1156.0,785,1/1,1,s090234153,p00003,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00003/s090234153.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00003.txt,"#include <iostream>
+#include<math.h>
+#include<iomanip>
+#include<vector>
+#include<algorithm>
+#include<functional>
+#include<string>
+using namespace std;
+int aa[1000][1000]={};
+int main()
+{
+    int  i=0,j=0,n=0,a=0,b=0,c=0,d=0;
+
+
+    cin >> n;
+    for(i=0;i<n;i++){
+        d=0;
+        cin >> a >> b >> c;
+        if(a>b&&a>c){
+            if((a*a-(b*b+c*c)==0)){
+                cout << ""YES"" << endl;
+            }
+            else cout << ""NO"" << endl;
+
+        }
+        else if(b>c){
+            if((b*b-(a*a+c*c)==0)){
+                cout << ""YES"" << endl;
+            }
+            else cout << ""NO"" << endl;
+        }
+        else{
+            if((c*c-(b*b+a*a)==0)){
+                cout << ""YES"" << endl;
+            }
+            else cout << ""NO"" << endl;
+        }
+    }
+
+}","Here's the code summary for the ""Is it a Right Triangle?"" problem:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name**:  
+   `is_right_triangle`  
+
+2. **Purpose**:  
+   Determines whether three given side lengths form a right triangle.  
+
+3. **Inputs**:  
+   - `a, b, c` (integers): The lengths of the three sides of a triangle.  
+
+4. **Outputs**:  
+   - `""YES""` if the sides form a right triangle, `""NO""` otherwise.  
+
+5. **Key Operations/Logic**:  
+   - Checks the Pythagorean theorem: \(a^2 + b^2 = c^2\) (or any permutation).  
+   - Sorts the sides to identify the hypotenuse (longest side).  
+   - Compares the sum of squares of the two shorter sides with the square of the longest side.  
+
+6. **Dependencies**:  
+   - None (standard arithmetic operations).  
+
+7. **Edge Cases Handled**:  
+   - Ensures the sides form a valid triangle (sum of any two sides > third side).  
+   - Handles multiple test cases efficiently.  
+
+8. **Example Usage (Optional)**:  
+   ```cpp
+   cout << is_right_triangle(4, 3, 5) << endl;  // Output: ""YES""  
+   cout << is_right_triangle(8, 8, 8) << endl;  // Output: ""NO""  
+   ```
+
+---
+
+### Additional Notes for Implementation:  
+- **Input Handling**: Read `N` test cases first, then process each triplet.  
+- **Efficiency**: The solution should handle the upper constraint (\(N = 1000\)) with minimal overhead.  
+- **Validation**: Though the problem guarantees valid inputs, a robust solution might verify triangle validity (e.g., all sides > 0).  
+
+Would you like a reference implementation in C/C++?"
+28124,4378,s521933427,p00003,u092736322,1414822801,C++,C++,cpp,Accepted,0.0,1176.0,593,1/1,1,s521933427,p00003,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00003/s521933427.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00003.txt,"#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <queue>
+using namespace std;
+
+int main() {
+    clock_t cTimeStart, cTimeEnd;
+    cTimeStart = clock();           // 現在時刻
+    int H[3];
+    int N,total;
+    cin>>N;
+    for(int i=0;i<N;++i){
+    	cin>>H[0]>>H[1]>>H[2];
+    	sort(H,H+3);
+    	total=H[2]*H[2]-(H[1]*H[1]+H[0]*H[0]);
+    	if(total==0){
+    		cout<<""YES""<<endl;
+    	}else{
+    		cout<<""NO""<<endl;
+
+    	}
+    }
+
+    cTimeEnd = clock();           // 現在時刻
+//    cout<< ""処理時間:"" <<(cTimeEnd - cTimeStart)/1000 << ""[ms]"" << endl;
+
+	return 0;
+}","Here's the code summary for the ""Is it a Right Triangle?"" problem:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name**:  
+   `is_right_triangle`  
+
+2. **Purpose**:  
+   Determines whether three given side lengths form a right triangle.  
+
+3. **Inputs**:  
+   - `a, b, c` (integers): The lengths of the three sides of a triangle.  
+
+4. **Outputs**:  
+   - `""YES""` if the sides form a right triangle, `""NO""` otherwise.  
+
+5. **Key Operations/Logic**:  
+   - Checks the Pythagorean theorem: \(a^2 + b^2 = c^2\) (or any permutation).  
+   - Sorts the sides to identify the hypotenuse (longest side).  
+   - Compares the sum of squares of the two shorter sides with the square of the longest side.  
+
+6. **Dependencies**:  
+   - None (standard arithmetic operations).  
+
+7. **Edge Cases Handled**:  
+   - Ensures the sides form a valid triangle (sum of any two sides > third side).  
+   - Handles multiple test cases efficiently.  
+
+8. **Example Usage (Optional)**:  
+   ```cpp
+   cout << is_right_triangle(4, 3, 5) << endl;  // Output: ""YES""  
+   cout << is_right_triangle(8, 8, 8) << endl;  // Output: ""NO""  
+   ```
+
+---
+
+### Additional Notes for Implementation:  
+- **Input Handling**: Read `N` test cases first, then process each triplet.  
+- **Efficiency**: The solution should handle the upper constraint (\(N = 1000\)) with minimal overhead.  
+- **Validation**: Though the problem guarantees valid inputs, a robust solution might verify triangle validity (e.g., all sides > 0).  
+
+Would you like a reference implementation in C/C++?"
+28140,4394,s417266307,p00003,u768842007,1416057104,C++,C++,cpp,Accepted,0.0,1148.0,682,1/1,1,s417266307,p00003,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00003/s417266307.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00003.txt,"#include <iostream>
+
+bool is_right_triangle(const int a, const int b, const int c)
+{
+    bool ret;
+    int aa;
+    int bb;
+    int cc;
+    
+    aa = a * a;
+    bb = b * b;
+    cc = c * c;
+    
+    if (aa + bb == cc || bb + cc == aa || cc + aa == bb){
+        ret = true;
+    }
+    else {
+        ret = false;
+    }
+    
+    return ret;
+}
+
+int main()
+{
+    int n;
+    int a;
+    int b;
+    int c;
+    
+    std::cin >> n;
+    
+    for (int i = 0; i < n; i++){
+        std::cin >> a >> b >> c;
+        if (is_right_triangle(a, b, c)){
+            std::cout << ""YES"" << std::endl;
+        }
+        else {
+            std::cout << ""NO"" << std::endl;
+        }
+    }
+    
+    return 0;
+}","Here's the code summary for the ""Is it a Right Triangle?"" problem:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name**:  
+   `is_right_triangle`  
+
+2. **Purpose**:  
+   Determines whether three given side lengths form a right triangle.  
+
+3. **Inputs**:  
+   - `a, b, c` (integers): The lengths of the three sides of a triangle.  
+
+4. **Outputs**:  
+   - `""YES""` if the sides form a right triangle, `""NO""` otherwise.  
+
+5. **Key Operations/Logic**:  
+   - Checks the Pythagorean theorem: \(a^2 + b^2 = c^2\) (or any permutation).  
+   - Sorts the sides to identify the hypotenuse (longest side).  
+   - Compares the sum of squares of the two shorter sides with the square of the longest side.  
+
+6. **Dependencies**:  
+   - None (standard arithmetic operations).  
+
+7. **Edge Cases Handled**:  
+   - Ensures the sides form a valid triangle (sum of any two sides > third side).  
+   - Handles multiple test cases efficiently.  
+
+8. **Example Usage (Optional)**:  
+   ```cpp
+   cout << is_right_triangle(4, 3, 5) << endl;  // Output: ""YES""  
+   cout << is_right_triangle(8, 8, 8) << endl;  // Output: ""NO""  
+   ```
+
+---
+
+### Additional Notes for Implementation:  
+- **Input Handling**: Read `N` test cases first, then process each triplet.  
+- **Efficiency**: The solution should handle the upper constraint (\(N = 1000\)) with minimal overhead.  
+- **Validation**: Though the problem guarantees valid inputs, a robust solution might verify triangle validity (e.g., all sides > 0).  
+
+Would you like a reference implementation in C/C++?"
+29214,5468,s569902922,p00003,u082857546,1476339571,C++,C++11,cpp,Accepted,0.0,3184.0,603,1/1,1,s569902922,p00003,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00003/s569902922.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00003.txt,"#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string>
+#include <sstream>
+#include <cmath>
+ 
+using namespace std;
+
+int N;
+int a, b, c;
+
+int main(){
+    scanf(""%d"", &N);
+    for(int i= 0; i <N; ++i) {
+        cin >> a >> b >> c;   
+        string ans;
+        if (a > b && a > c){
+            ans = pow(a,2) == pow(b,2) + pow(c,2) ? ""YES"" : ""NO"";
+        } else if (b > a && b > c){
+            ans = pow(b,2) == pow(a,2) + pow(c,2) ? ""YES"" : ""NO"";
+        }else {
+            ans = pow(c,2) == pow(a,2) + pow(b,2) ? ""YES"" : ""NO"";
+    }
+    cout << ans << endl;
+    }
+}
+       
+    ","Here's the code summary for the ""Is it a Right Triangle?"" problem:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name**:  
+   `is_right_triangle`  
+
+2. **Purpose**:  
+   Determines whether three given side lengths form a right triangle.  
+
+3. **Inputs**:  
+   - `a, b, c` (integers): The lengths of the three sides of a triangle.  
+
+4. **Outputs**:  
+   - `""YES""` if the sides form a right triangle, `""NO""` otherwise.  
+
+5. **Key Operations/Logic**:  
+   - Checks the Pythagorean theorem: \(a^2 + b^2 = c^2\) (or any permutation).  
+   - Sorts the sides to identify the hypotenuse (longest side).  
+   - Compares the sum of squares of the two shorter sides with the square of the longest side.  
+
+6. **Dependencies**:  
+   - None (standard arithmetic operations).  
+
+7. **Edge Cases Handled**:  
+   - Ensures the sides form a valid triangle (sum of any two sides > third side).  
+   - Handles multiple test cases efficiently.  
+
+8. **Example Usage (Optional)**:  
+   ```cpp
+   cout << is_right_triangle(4, 3, 5) << endl;  // Output: ""YES""  
+   cout << is_right_triangle(8, 8, 8) << endl;  // Output: ""NO""  
+   ```
+
+---
+
+### Additional Notes for Implementation:  
+- **Input Handling**: Read `N` test cases first, then process each triplet.  
+- **Efficiency**: The solution should handle the upper constraint (\(N = 1000\)) with minimal overhead.  
+- **Validation**: Though the problem guarantees valid inputs, a robust solution might verify triangle validity (e.g., all sides > 0).  
+
+Would you like a reference implementation in C/C++?"
+28582,4836,s473783877,p00003,u072632578,1441348361,C++,C++11,cpp,Accepted,0.0,1012.0,413,1/1,1,s473783877,p00003,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00003/s473783877.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00003.txt,"#include <array>
+#include <algorithm>
+#include <cstdio>
+
+using namespace std;
+
+int main() {
+    array<int, 3> sides;
+    int n;
+    scanf(""%d"", &n);
+
+    for (int i = 0; i < n; ++i)
+    {
+        scanf(""%d %d %d"", &sides[0], &sides[1], &sides[2]);
+        sort(sides.begin(), sides.end());
+        printf(sides[2] * sides[2] == sides[0] * sides[0] + sides[1] * sides[1] ? ""YES\n"" : ""NO\n"");
+    }
+
+    return 0;
+}","Here's the code summary for the ""Is it a Right Triangle?"" problem:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name**:  
+   `is_right_triangle`  
+
+2. **Purpose**:  
+   Determines whether three given side lengths form a right triangle.  
+
+3. **Inputs**:  
+   - `a, b, c` (integers): The lengths of the three sides of a triangle.  
+
+4. **Outputs**:  
+   - `""YES""` if the sides form a right triangle, `""NO""` otherwise.  
+
+5. **Key Operations/Logic**:  
+   - Checks the Pythagorean theorem: \(a^2 + b^2 = c^2\) (or any permutation).  
+   - Sorts the sides to identify the hypotenuse (longest side).  
+   - Compares the sum of squares of the two shorter sides with the square of the longest side.  
+
+6. **Dependencies**:  
+   - None (standard arithmetic operations).  
+
+7. **Edge Cases Handled**:  
+   - Ensures the sides form a valid triangle (sum of any two sides > third side).  
+   - Handles multiple test cases efficiently.  
+
+8. **Example Usage (Optional)**:  
+   ```cpp
+   cout << is_right_triangle(4, 3, 5) << endl;  // Output: ""YES""  
+   cout << is_right_triangle(8, 8, 8) << endl;  // Output: ""NO""  
+   ```
+
+---
+
+### Additional Notes for Implementation:  
+- **Input Handling**: Read `N` test cases first, then process each triplet.  
+- **Efficiency**: The solution should handle the upper constraint (\(N = 1000\)) with minimal overhead.  
+- **Validation**: Though the problem guarantees valid inputs, a robust solution might verify triangle validity (e.g., all sides > 0).  
+
+Would you like a reference implementation in C/C++?"
+34858,5352,s821213494,p00004,u951864851,1411246850,C++,C++11,cpp,Accepted,0.0,1300.0,1530,1/1,1,s821213494,p00004,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00004/s821213494.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00004.txt,"#include <iostream>
+#include <iomanip>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <string>
+#include <vector>
+#include <list>
+#include <iterator>
+
+#include <cstdio>
+#include <cmath>
+
+#define DIM 2
+#define EPS (5*10e-4)
+
+typedef std::vector<double> Vec;
+typedef std::vector<Vec> Mat;
+typedef std::pair<Mat,Vec> Eq;
+
+double removeMinusZero(double x){
+	if ( fabs(x)< EPS ){
+		return 0.0;
+	}
+	else {
+		return x;
+	}
+}
+
+int main(void){
+	using namespace std;
+
+	list<Eq> input;
+
+	double a,b,c,d,e,f;
+
+	cout << fixed << setprecision(3);
+
+	while(cin >> a >> b >> c >> d >> e >> f){
+		Vec m1, m2;
+		m1.push_back(a);
+		m1.push_back(b);
+		m2.push_back(d);
+		m2.push_back(e);
+
+		Vec vec;
+		vec.push_back(c);
+		vec.push_back(f);
+
+		Mat mat;
+		mat.push_back(m1);
+		mat.push_back(m2);
+
+		Eq eq = make_pair(mat,vec);
+
+		input.push_back(eq);
+	}
+
+	for(auto itr = input.begin(); itr!=input.end(); ++itr){
+		auto mat = itr->first;
+		auto vec = itr->second;
+
+		Vec output(DIM);
+
+		double det = mat[0][0] * mat[1][1] - mat[0][1] * mat[1][0];
+		// std::transform(vec.begin(), vec.end(),vec.begin(), std::bind1st(multiplies<double>(),1.0/det));
+
+		mat[0][1] = -mat[0][1];
+		mat[1][0] = -mat[1][0];
+		swap(mat[0][0],mat[1][1]);
+
+		for (int i=0; i<DIM; i++){
+			output[i] = inner_product(vec.begin(), vec.end(), mat[i].begin(), 0);
+		}
+		std::transform(output.begin(), output.end(),output.begin(), std::bind1st(multiplies<double>(),1.0/det));
+		cout << removeMinusZero(output[0]) << "" "" << removeMinusZero(output[1]) << endl;
+	}
+
+}","Here's the code summary for the Simultaneous Equation problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `solve_simultaneous_eq`
+
+2. **Purpose**:  
+   Solves a system of two linear equations with two variables (x and y) using given coefficients and constants.
+
+3. **Inputs**:  
+   - `a, b, c, d, e, f` (integers): Coefficients and constants of the equations:  
+     ```
+     ax + by = c  
+     dx + ey = f  
+     ```
+
+4. **Outputs**:  
+   - `x, y` (floats): The solution to the system of equations, rounded to three decimal places.
+
+5. **Key Operations/Logic**:  
+   - Uses Cramer's Rule to compute the solution:  
+     ```
+     det = a*e - b*d  
+     x = (c*e - b*f) / det  
+     y = (a*f - c*d) / det  
+     ```
+   - Rounds the results to three decimal places.
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output operations.  
+   - `<math.h>` for rounding (if needed).
+
+7. **Edge Cases Handled**:  
+   - Assumes the equations have a unique solution (determinant is non-zero).  
+   - Handles EOF (End of File) for input termination.
+
+8. **Example Usage**:  
+   ```c
+   int a, b, c, d, e, f;
+   while (scanf(""%d %d %d %d %d %d"", &a, &b, &c, &d, &e, &f) != EOF) {
+       float x, y;
+       solve_simultaneous_eq(a, b, c, d, e, f, &x, &y);
+       printf(""%.3f %.3f\n"", x, y);
+   }
+   ```
+
+---
+
+### Additional Notes:
+- The solution assumes valid input (no division by zero, as per the problem statement).  
+- Input is read until EOF (End of File) is encountered.  
+- Output is formatted to three decimal places.  
+
+Would you like a full implementation in C/C++ as well?"
+36705,7199,s045517183,p00004,u693646660,1499541440,C++,C++,cpp,Accepted,0.0,3076.0,1716,1/1,1,s045517183,p00004,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00004/s045517183.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00004.txt,"#include <cstdio>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <memory.h>
+#include <cmath>
+#include <map>
+#include <set>
+#include <queue>
+#include <stack>
+#include <ctime>
+#include <iostream>
+#include <functional>
+#include <complex>
+#include <iomanip>
+#pragma comment(linker, ""/STACK:836777216"")
+
+using namespace std;
+
+typedef long long ll;
+typedef pair<int, int> pii;
+typedef pair<ll, ll> pll;
+typedef pair<double, double> pdd;
+typedef pair<pii, int> p3i;
+typedef vector<int> vi;
+typedef vector<pii> vii;
+typedef vector<pll> vll;
+typedef vector<p3i> v3i;
+typedef vector<vii> vvii;
+typedef vector<p3i> vp3i;
+typedef long double ld;
+typedef vector<ld> vld;
+
+#define pb push_back
+#define mp make_pair
+#define REP(i, n) for (int (i) = 0; (i) < (n); (i)++)
+#define REPD(i, n) for (int (i) = (n) - 1; (i) >= 0; (i)--)
+#define FOR(i, a, b) for (int (i) = (a); (i) < (b); (i)++)
+#define FORD(i,a, b) for (int (i) = (a); (i) >= (b); (i)--)
+#define sz(v) (int)(v).size()
+#define all(v) (v).begin(), (v).end()
+#define rv(v) reverse(all(v))
+#define CL(v, val) memset((v), (val), sizeof((v)))
+#define SORT(a) sort(all(a))
+#define un(v) SORT(v), (v).resize(unique(all(v)) - (v).begin())
+#define eps 1.0e-7
+#define X first
+#define Y second
+#define bit(n) (1 << (n))
+#define bit64(n) (ll(1) << (n))
+#define sqr(n) ((n) * (n))
+
+ll DET(ll a, ll b, ll c, ll d) {
+  return a * d - b * c;
+}
+
+int main(void) {
+  ll a,b,c,d,e,f;
+  while (scanf(""%lld%lld%lld%lld%lld%lld"", &a, &b, &c, &d, &e, &f) == 6) {
+    ll det = DET(a,b,d,e);
+    ll det1 = DET(c,b,f,e);
+    ll det2 = DET(a,c,d,f);
+    double x = 1.0 * det1 / det;
+    double y = 1.0 * det2 / det;
+    printf(""%.3lf %.3lf\n"", x + eps, y + eps);
+  }
+  return 0;
+}","Here's the code summary for the Simultaneous Equation problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `solve_simultaneous_eq`
+
+2. **Purpose**:  
+   Solves a system of two linear equations with two variables (x and y) using given coefficients and constants.
+
+3. **Inputs**:  
+   - `a, b, c, d, e, f` (integers): Coefficients and constants of the equations:  
+     ```
+     ax + by = c  
+     dx + ey = f  
+     ```
+
+4. **Outputs**:  
+   - `x, y` (floats): The solution to the system of equations, rounded to three decimal places.
+
+5. **Key Operations/Logic**:  
+   - Uses Cramer's Rule to compute the solution:  
+     ```
+     det = a*e - b*d  
+     x = (c*e - b*f) / det  
+     y = (a*f - c*d) / det  
+     ```
+   - Rounds the results to three decimal places.
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output operations.  
+   - `<math.h>` for rounding (if needed).
+
+7. **Edge Cases Handled**:  
+   - Assumes the equations have a unique solution (determinant is non-zero).  
+   - Handles EOF (End of File) for input termination.
+
+8. **Example Usage**:  
+   ```c
+   int a, b, c, d, e, f;
+   while (scanf(""%d %d %d %d %d %d"", &a, &b, &c, &d, &e, &f) != EOF) {
+       float x, y;
+       solve_simultaneous_eq(a, b, c, d, e, f, &x, &y);
+       printf(""%.3f %.3f\n"", x, y);
+   }
+   ```
+
+---
+
+### Additional Notes:
+- The solution assumes valid input (no division by zero, as per the problem statement).  
+- Input is read until EOF (End of File) is encountered.  
+- Output is formatted to three decimal places.  
+
+Would you like a full implementation in C/C++ as well?"
+35935,6429,s373522857,p00004,u084540620,1466675912,C++,C++,cpp,Accepted,0.0,1256.0,945,1/1,1,s373522857,p00004,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00004/s373522857.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00004.txt,"#include<bits/stdc++.h>
+using namespace std;
+const double EPS=1E-8;
+typedef vector<double> vec;
+typedef vector<vec> mat;
+
+vec gauss_jordan(const mat& A,const vec& b){
+  int n=A.size();
+  mat B(n,vec(n+1));
+  for(int i=0;i<n;i++)
+    for(int j=0;j<n;j++)B[i][j]=A[i][j];
+  for(int i=0;i<n;i++)B[i][n]=b[i];
+  for(int i=0;i<n;i++){
+    int pivot=i;
+    for(int j=i;j<n;j++)
+      if(abs(B[j][i])>abs(B[pivot][i]))pivot=j;
+    swap(B[i],B[pivot]);
+    if(abs(B[i][i])<EPS)return vec();
+    for(int j=i+1;j<=n;j++)B[i][j]/=B[i][i];
+    for(int j=0;j<n;j++){
+      if(i!=j)
+	for(int k=i+1;k<=n;k++)B[j][k]-=B[j][i]*B[i][k];
+    }
+  }
+  vec x(n);
+  for(int i=0;i<n;i++)x[i]=B[i][n];
+  return x;
+}
+
+int main(){
+  double a,b,c,d,e,f;
+  while(cin>>a>>b>>c>>d>>e>>f){
+    mat A(2,vec(2));
+    vec B(2);
+    A[0][0]=a,A[0][1]=b;
+    A[1][0]=d,A[1][1]=e;
+    B[0]=c,B[1]=f;
+    vec r=gauss_jordan(A,B);
+    printf(""%.3f %.3f\n"",r[0],r[1]);
+  }
+  return 0;
+}","Here's the code summary for the Simultaneous Equation problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `solve_simultaneous_eq`
+
+2. **Purpose**:  
+   Solves a system of two linear equations with two variables (x and y) using given coefficients and constants.
+
+3. **Inputs**:  
+   - `a, b, c, d, e, f` (integers): Coefficients and constants of the equations:  
+     ```
+     ax + by = c  
+     dx + ey = f  
+     ```
+
+4. **Outputs**:  
+   - `x, y` (floats): The solution to the system of equations, rounded to three decimal places.
+
+5. **Key Operations/Logic**:  
+   - Uses Cramer's Rule to compute the solution:  
+     ```
+     det = a*e - b*d  
+     x = (c*e - b*f) / det  
+     y = (a*f - c*d) / det  
+     ```
+   - Rounds the results to three decimal places.
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output operations.  
+   - `<math.h>` for rounding (if needed).
+
+7. **Edge Cases Handled**:  
+   - Assumes the equations have a unique solution (determinant is non-zero).  
+   - Handles EOF (End of File) for input termination.
+
+8. **Example Usage**:  
+   ```c
+   int a, b, c, d, e, f;
+   while (scanf(""%d %d %d %d %d %d"", &a, &b, &c, &d, &e, &f) != EOF) {
+       float x, y;
+       solve_simultaneous_eq(a, b, c, d, e, f, &x, &y);
+       printf(""%.3f %.3f\n"", x, y);
+   }
+   ```
+
+---
+
+### Additional Notes:
+- The solution assumes valid input (no division by zero, as per the problem statement).  
+- Input is read until EOF (End of File) is encountered.  
+- Output is formatted to three decimal places.  
+
+Would you like a full implementation in C/C++ as well?"
+36514,7008,s927848821,p00004,u256863663,1491021907,C++,C++14,cpp,Accepted,0.0,3164.0,548,1/1,1,s927848821,p00004,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00004/s927848821.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00004.txt,"#include <iostream>
+#include <vector>
+
+void solv(
+	double a,
+	double b,
+	double c,
+	double d,
+	double e,
+	double f,
+	double & x,
+	double & y){
+	y = (f - (d*c)/a)/(e - (b*d)/a);
+	x = (c - b*y)/a;
+}
+
+int main(){
+	std::vector<std::pair<double, double>> ans;
+
+	double a,b,c,d,e,f;
+	std::pair<double, double> tmp;
+
+	while(true){
+		std::cin >> a >> b >> c >> d >> e >> f;
+		if(std::cin.eof() == true) break;
+		solv(a,b,c,d,e,f,
+			tmp.first, tmp.second);
+		ans.push_back(tmp);
+	}
+
+	for(auto && a : ans){
+		printf(""%0.3f %0.3f\n"", a.first, a.second);
+	}
+}","Here's the code summary for the Simultaneous Equation problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `solve_simultaneous_eq`
+
+2. **Purpose**:  
+   Solves a system of two linear equations with two variables (x and y) using given coefficients and constants.
+
+3. **Inputs**:  
+   - `a, b, c, d, e, f` (integers): Coefficients and constants of the equations:  
+     ```
+     ax + by = c  
+     dx + ey = f  
+     ```
+
+4. **Outputs**:  
+   - `x, y` (floats): The solution to the system of equations, rounded to three decimal places.
+
+5. **Key Operations/Logic**:  
+   - Uses Cramer's Rule to compute the solution:  
+     ```
+     det = a*e - b*d  
+     x = (c*e - b*f) / det  
+     y = (a*f - c*d) / det  
+     ```
+   - Rounds the results to three decimal places.
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output operations.  
+   - `<math.h>` for rounding (if needed).
+
+7. **Edge Cases Handled**:  
+   - Assumes the equations have a unique solution (determinant is non-zero).  
+   - Handles EOF (End of File) for input termination.
+
+8. **Example Usage**:  
+   ```c
+   int a, b, c, d, e, f;
+   while (scanf(""%d %d %d %d %d %d"", &a, &b, &c, &d, &e, &f) != EOF) {
+       float x, y;
+       solve_simultaneous_eq(a, b, c, d, e, f, &x, &y);
+       printf(""%.3f %.3f\n"", x, y);
+   }
+   ```
+
+---
+
+### Additional Notes:
+- The solution assumes valid input (no division by zero, as per the problem statement).  
+- Input is read until EOF (End of File) is encountered.  
+- Output is formatted to three decimal places.  
+
+Would you like a full implementation in C/C++ as well?"
+36315,6809,s797947249,p00004,u140201022,1482498964,C++,C++14,cpp,Accepted,0.0,3188.0,473,1/1,1,s797947249,p00004,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00004/s797947249.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00004.txt,"#include<bits/stdc++.h>
+#include<vector>
+#include<list>
+#include<stack>
+#include<queue>
+#include<algorithm>
+using namespace std;
+
+
+
+int main(){
+    double a,b,c,d,e,f;
+    while(scanf(""%lf %lf %lf %lf %lf %lf"",&a,&b,&c,&d,&e,&f)!=EOF){
+        double x=(c*e-b*f)/(a*e-b*d);
+        double y=(c-a*x)/b;
+        
+        if(abs(x)<1e-10){
+            x=0;
+        }
+        if(abs(y)<1e-10){
+            y=0;
+        }
+        printf(""%.3f %.3f\n"",x,y);
+    }
+    return 0;
+}","Here's the code summary for the Simultaneous Equation problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `solve_simultaneous_eq`
+
+2. **Purpose**:  
+   Solves a system of two linear equations with two variables (x and y) using given coefficients and constants.
+
+3. **Inputs**:  
+   - `a, b, c, d, e, f` (integers): Coefficients and constants of the equations:  
+     ```
+     ax + by = c  
+     dx + ey = f  
+     ```
+
+4. **Outputs**:  
+   - `x, y` (floats): The solution to the system of equations, rounded to three decimal places.
+
+5. **Key Operations/Logic**:  
+   - Uses Cramer's Rule to compute the solution:  
+     ```
+     det = a*e - b*d  
+     x = (c*e - b*f) / det  
+     y = (a*f - c*d) / det  
+     ```
+   - Rounds the results to three decimal places.
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output operations.  
+   - `<math.h>` for rounding (if needed).
+
+7. **Edge Cases Handled**:  
+   - Assumes the equations have a unique solution (determinant is non-zero).  
+   - Handles EOF (End of File) for input termination.
+
+8. **Example Usage**:  
+   ```c
+   int a, b, c, d, e, f;
+   while (scanf(""%d %d %d %d %d %d"", &a, &b, &c, &d, &e, &f) != EOF) {
+       float x, y;
+       solve_simultaneous_eq(a, b, c, d, e, f, &x, &y);
+       printf(""%.3f %.3f\n"", x, y);
+   }
+   ```
+
+---
+
+### Additional Notes:
+- The solution assumes valid input (no division by zero, as per the problem statement).  
+- Input is read until EOF (End of File) is encountered.  
+- Output is formatted to three decimal places.  
+
+Would you like a full implementation in C/C++ as well?"
+36185,6679,s644632601,p00004,u705334572,1478402666,C++,C++14,cpp,Accepted,0.0,3184.0,296,1/1,1,s644632601,p00004,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00004/s644632601.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00004.txt,"#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main()
+{
+	double a, b, c, d, e, f;
+	while (cin >> a >> b >> c >> d >> e >> f) {
+		double g = ((c*d) - (a*f)) / ((b*d) - (a*e));
+		double h = (c - (b*g)) / a;
+		cout << fixed << setprecision(3) << h << "" "" <<g << endl;
+	}
+	return 0;
+}","Here's the code summary for the Simultaneous Equation problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `solve_simultaneous_eq`
+
+2. **Purpose**:  
+   Solves a system of two linear equations with two variables (x and y) using given coefficients and constants.
+
+3. **Inputs**:  
+   - `a, b, c, d, e, f` (integers): Coefficients and constants of the equations:  
+     ```
+     ax + by = c  
+     dx + ey = f  
+     ```
+
+4. **Outputs**:  
+   - `x, y` (floats): The solution to the system of equations, rounded to three decimal places.
+
+5. **Key Operations/Logic**:  
+   - Uses Cramer's Rule to compute the solution:  
+     ```
+     det = a*e - b*d  
+     x = (c*e - b*f) / det  
+     y = (a*f - c*d) / det  
+     ```
+   - Rounds the results to three decimal places.
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output operations.  
+   - `<math.h>` for rounding (if needed).
+
+7. **Edge Cases Handled**:  
+   - Assumes the equations have a unique solution (determinant is non-zero).  
+   - Handles EOF (End of File) for input termination.
+
+8. **Example Usage**:  
+   ```c
+   int a, b, c, d, e, f;
+   while (scanf(""%d %d %d %d %d %d"", &a, &b, &c, &d, &e, &f) != EOF) {
+       float x, y;
+       solve_simultaneous_eq(a, b, c, d, e, f, &x, &y);
+       printf(""%.3f %.3f\n"", x, y);
+   }
+   ```
+
+---
+
+### Additional Notes:
+- The solution assumes valid input (no division by zero, as per the problem statement).  
+- Input is read until EOF (End of File) is encountered.  
+- Output is formatted to three decimal places.  
+
+Would you like a full implementation in C/C++ as well?"
+34875,5369,s191817673,p00004,u907152698,1411999517,C++,C++,cpp,Accepted,0.0,1080.0,350,1/1,1,s191817673,p00004,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00004/s191817673.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00004.txt,"#include <cstdio>
+
+int main(){
+    double a,b,c,d,e,f;
+    while(scanf(""%lf %lf %lf %lf %lf %lf"",&a, &b, &c, &d, &e, &f)!=EOF){
+        double D = a*e-b*d;
+        double x = (e*c-b*f)/D;
+        double y = (a*f-c*d)/D;
+        if(x==0)
+            x = 0;
+        if(y==0)
+            y = 0;
+        printf(""%.3f %.3f\n"", x, y);
+    }
+    return 0;
+}","Here's the code summary for the Simultaneous Equation problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `solve_simultaneous_eq`
+
+2. **Purpose**:  
+   Solves a system of two linear equations with two variables (x and y) using given coefficients and constants.
+
+3. **Inputs**:  
+   - `a, b, c, d, e, f` (integers): Coefficients and constants of the equations:  
+     ```
+     ax + by = c  
+     dx + ey = f  
+     ```
+
+4. **Outputs**:  
+   - `x, y` (floats): The solution to the system of equations, rounded to three decimal places.
+
+5. **Key Operations/Logic**:  
+   - Uses Cramer's Rule to compute the solution:  
+     ```
+     det = a*e - b*d  
+     x = (c*e - b*f) / det  
+     y = (a*f - c*d) / det  
+     ```
+   - Rounds the results to three decimal places.
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output operations.  
+   - `<math.h>` for rounding (if needed).
+
+7. **Edge Cases Handled**:  
+   - Assumes the equations have a unique solution (determinant is non-zero).  
+   - Handles EOF (End of File) for input termination.
+
+8. **Example Usage**:  
+   ```c
+   int a, b, c, d, e, f;
+   while (scanf(""%d %d %d %d %d %d"", &a, &b, &c, &d, &e, &f) != EOF) {
+       float x, y;
+       solve_simultaneous_eq(a, b, c, d, e, f, &x, &y);
+       printf(""%.3f %.3f\n"", x, y);
+   }
+   ```
+
+---
+
+### Additional Notes:
+- The solution assumes valid input (no division by zero, as per the problem statement).  
+- Input is read until EOF (End of File) is encountered.  
+- Output is formatted to three decimal places.  
+
+Would you like a full implementation in C/C++ as well?"
+37622,8116,s060337970,p00004,u032763525,1304603258,C++,C++,cpp,Accepted,0.0,0.0,316,,1,s060337970,p00004,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00004/s060337970.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00004.txt,"#include <stdio.h>
+int main(void)
+{
+  float a,b,c,d,e,f,x,y;
+  while(scanf(""%f%f%f%f%f%f"",&a,&b,&c,&d,&e,&f) != EOF){
+  	x=(c*e-b*f)/(a*e-b*d);
+  	y=(c*d-a*f)/(b*d-a*e);
+	if(x>=0){
+		x+=0.0004;
+	}
+	else{
+		x-=0.0004;
+	}
+	if(y>=0){
+		y+=0.0004;
+	}
+	else{
+		y-=0.0004;
+	}
+	printf(""%.3f %.3f\n"",x,y);
+  }
+  return(0);
+}","Here's the code summary for the Simultaneous Equation problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `solve_simultaneous_eq`
+
+2. **Purpose**:  
+   Solves a system of two linear equations with two variables (x and y) using given coefficients and constants.
+
+3. **Inputs**:  
+   - `a, b, c, d, e, f` (integers): Coefficients and constants of the equations:  
+     ```
+     ax + by = c  
+     dx + ey = f  
+     ```
+
+4. **Outputs**:  
+   - `x, y` (floats): The solution to the system of equations, rounded to three decimal places.
+
+5. **Key Operations/Logic**:  
+   - Uses Cramer's Rule to compute the solution:  
+     ```
+     det = a*e - b*d  
+     x = (c*e - b*f) / det  
+     y = (a*f - c*d) / det  
+     ```
+   - Rounds the results to three decimal places.
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output operations.  
+   - `<math.h>` for rounding (if needed).
+
+7. **Edge Cases Handled**:  
+   - Assumes the equations have a unique solution (determinant is non-zero).  
+   - Handles EOF (End of File) for input termination.
+
+8. **Example Usage**:  
+   ```c
+   int a, b, c, d, e, f;
+   while (scanf(""%d %d %d %d %d %d"", &a, &b, &c, &d, &e, &f) != EOF) {
+       float x, y;
+       solve_simultaneous_eq(a, b, c, d, e, f, &x, &y);
+       printf(""%.3f %.3f\n"", x, y);
+   }
+   ```
+
+---
+
+### Additional Notes:
+- The solution assumes valid input (no division by zero, as per the problem statement).  
+- Input is read until EOF (End of File) is encountered.  
+- Output is formatted to three decimal places.  
+
+Would you like a full implementation in C/C++ as well?"
+35009,5503,s050476976,p00004,u615353970,1418297341,C++,C++,cpp,Accepted,0.0,1236.0,313,1/1,1,s050476976,p00004,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00004/s050476976.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00004.txt,"#include<iostream>
+#include<cstdio>
+using namespace std;
+
+int main(void){
+  double a,b,c,d,e,f;
+  while(cin>>a>>b>>c>>d>>e>>f){
+  double p = a * e - b * d;
+  double x = (e * c - b * f) / p;
+  double y = (a * f - d * c) / p;
+  if(0>=x&&x>=-0.0004)x=0;
+  if(0>=y&&y>=-0.0004)y=0;
+  printf(""%.3f %.3f\n"",x,y);
+  }
+
+}","Here's the code summary for the Simultaneous Equation problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `solve_simultaneous_eq`
+
+2. **Purpose**:  
+   Solves a system of two linear equations with two variables (x and y) using given coefficients and constants.
+
+3. **Inputs**:  
+   - `a, b, c, d, e, f` (integers): Coefficients and constants of the equations:  
+     ```
+     ax + by = c  
+     dx + ey = f  
+     ```
+
+4. **Outputs**:  
+   - `x, y` (floats): The solution to the system of equations, rounded to three decimal places.
+
+5. **Key Operations/Logic**:  
+   - Uses Cramer's Rule to compute the solution:  
+     ```
+     det = a*e - b*d  
+     x = (c*e - b*f) / det  
+     y = (a*f - c*d) / det  
+     ```
+   - Rounds the results to three decimal places.
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output operations.  
+   - `<math.h>` for rounding (if needed).
+
+7. **Edge Cases Handled**:  
+   - Assumes the equations have a unique solution (determinant is non-zero).  
+   - Handles EOF (End of File) for input termination.
+
+8. **Example Usage**:  
+   ```c
+   int a, b, c, d, e, f;
+   while (scanf(""%d %d %d %d %d %d"", &a, &b, &c, &d, &e, &f) != EOF) {
+       float x, y;
+       solve_simultaneous_eq(a, b, c, d, e, f, &x, &y);
+       printf(""%.3f %.3f\n"", x, y);
+   }
+   ```
+
+---
+
+### Additional Notes:
+- The solution assumes valid input (no division by zero, as per the problem statement).  
+- Input is read until EOF (End of File) is encountered.  
+- Output is formatted to three decimal places.  
+
+Would you like a full implementation in C/C++ as well?"
+35362,5856,s731010238,p00004,u820425665,1438512664,C++,C++11,cpp,Accepted,0.0,1292.0,398,1/1,1,s731010238,p00004,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00004/s731010238.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00004.txt,"#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main(){
+	cin.tie(0);
+	ios::sync_with_stdio(false);
+	
+	double a, b, c, d, e, f;
+	while(cin >> a >> b >> c >> d >> e >> f){
+		//double x = (c * e - f * b) / (a * e - d * b);
+		double y = (c * d - f * a) / (b * d - a * e);
+		double x = (- b * y + c) / a;
+		
+		cout << fixed << setprecision(3) << x << "" "" << y << endl;
+	}
+	
+	return 0;
+}","Here's the code summary for the Simultaneous Equation problem in C/C++ format:
+
+---
+
+### Code Summary Format
+
+1. **Function/Method Name**:  
+   `solve_simultaneous_eq`
+
+2. **Purpose**:  
+   Solves a system of two linear equations with two variables (x and y) using given coefficients and constants.
+
+3. **Inputs**:  
+   - `a, b, c, d, e, f` (integers): Coefficients and constants of the equations:  
+     ```
+     ax + by = c  
+     dx + ey = f  
+     ```
+
+4. **Outputs**:  
+   - `x, y` (floats): The solution to the system of equations, rounded to three decimal places.
+
+5. **Key Operations/Logic**:  
+   - Uses Cramer's Rule to compute the solution:  
+     ```
+     det = a*e - b*d  
+     x = (c*e - b*f) / det  
+     y = (a*f - c*d) / det  
+     ```
+   - Rounds the results to three decimal places.
+
+6. **Dependencies**:  
+   - `<stdio.h>` for input/output operations.  
+   - `<math.h>` for rounding (if needed).
+
+7. **Edge Cases Handled**:  
+   - Assumes the equations have a unique solution (determinant is non-zero).  
+   - Handles EOF (End of File) for input termination.
+
+8. **Example Usage**:  
+   ```c
+   int a, b, c, d, e, f;
+   while (scanf(""%d %d %d %d %d %d"", &a, &b, &c, &d, &e, &f) != EOF) {
+       float x, y;
+       solve_simultaneous_eq(a, b, c, d, e, f, &x, &y);
+       printf(""%.3f %.3f\n"", x, y);
+   }
+   ```
+
+---
+
+### Additional Notes:
+- The solution assumes valid input (no division by zero, as per the problem statement).  
+- Input is read until EOF (End of File) is encountered.  
+- Output is formatted to three decimal places.  
+
+Would you like a full implementation in C/C++ as well?"
+41404,3486,s075839077,p00005,u011621222,1540584950,C++,C++14,cpp,Accepted,0.0,3008.0,322,1/1,1,s075839077,p00005,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00005/s075839077.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00005.txt,"#include<iostream>
+using namespace std;
+long long gcd(long long a, long long b)
+{
+    if(a==0)
+        return b;
+    return gcd(b%a,a);
+}
+long long lcm(long long a, long long b)
+{
+    return (a*b)/gcd(a,b);
+}
+int main()
+{
+    long long x,y;
+    while(cin>>x>>y)
+    {
+        cout<<gcd(x,y)<<"" ""<<lcm(x,y)<<endl;
+    }
+}
+
+","Here's the code summary for the GCD and LCM problem in the requested format:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name:**  
+   `compute_gcd_lcm`  
+
+2. **Purpose:**  
+   Computes the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two given integers `a` and `b`.  
+
+3. **Inputs:**  
+   - `a` (int): First integer.  
+   - `b` (int): Second integer.  
+
+4. **Outputs:**  
+   - `gcd` (int): The greatest common divisor of `a` and `b`.  
+   - `lcm` (int): The least common multiple of `a` and `b`.  
+
+5. **Key Operations/Logic:**  
+   - Uses the **Euclidean algorithm** to compute GCD recursively.  
+   - Computes LCM using the formula:  
+     \[
+     \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+     \]  
+   - Handles multiple input sets until EOF (End of File).  
+
+6. **Dependencies:**  
+   - None (Standard C/C++ libraries suffice).  
+
+7. **Edge Cases Handled:**  
+   - Ensures `a` and `b` are within the constraint bounds (0 < `a, b` ≤ 2,000,000,000).  
+   - Checks if LCM does not exceed 2,000,000,000.  
+   - Handles up to 50 input sets.  
+
+8. **Example Usage (C++):**  
+   ```cpp
+   #include <iostream>
+   using namespace std;
+
+   int compute_gcd(int a, int b) {
+       return b == 0 ? a : compute_gcd(b, a % b);
+   }
+
+   int compute_lcm(int a, int b, int gcd) {
+       return (a / gcd) * b;
+   }
+
+   int main() {
+       int a, b;
+       while (cin >> a >> b) {
+           int gcd = compute_gcd(a, b);
+           int lcm = compute_lcm(a, b, gcd);
+           cout << gcd << "" "" << lcm << endl;
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The **Euclidean algorithm** is efficient for GCD computation with logarithmic time complexity.  
+- **LCM** is derived from GCD to avoid unnecessary recomputation.  
+- The program reads inputs until EOF, making it suitable for multiple test cases.  
+- Constraints ensure no integer overflow occurs with 32-bit integers.  
+
+Would you like any modifications or additional details?"
+42686,4768,s855275995,p00005,u910030421,1476967737,C++,C++,cpp,Accepted,0.0,2988.0,344,1/1,1,s855275995,p00005,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00005/s855275995.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00005.txt,"#include <iostream>
+
+using namespace std;
+
+void solve(long long a, long long b) {
+	long long num = a * b;
+	while (a != b) {
+		if (a > b) {
+			a -= b;
+		}else if(b > a){
+			b -= a;
+		}
+
+		if (a == b) {
+			break;
+		}
+	}
+	cout << a << "" "" << num / a << endl;
+}
+
+int main() {
+	long long a, b;
+	while (cin >> a >> b) {
+		solve(a, b);
+	}
+	return 0;
+}","Here's the code summary for the GCD and LCM problem in the requested format:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name:**  
+   `compute_gcd_lcm`  
+
+2. **Purpose:**  
+   Computes the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two given integers `a` and `b`.  
+
+3. **Inputs:**  
+   - `a` (int): First integer.  
+   - `b` (int): Second integer.  
+
+4. **Outputs:**  
+   - `gcd` (int): The greatest common divisor of `a` and `b`.  
+   - `lcm` (int): The least common multiple of `a` and `b`.  
+
+5. **Key Operations/Logic:**  
+   - Uses the **Euclidean algorithm** to compute GCD recursively.  
+   - Computes LCM using the formula:  
+     \[
+     \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+     \]  
+   - Handles multiple input sets until EOF (End of File).  
+
+6. **Dependencies:**  
+   - None (Standard C/C++ libraries suffice).  
+
+7. **Edge Cases Handled:**  
+   - Ensures `a` and `b` are within the constraint bounds (0 < `a, b` ≤ 2,000,000,000).  
+   - Checks if LCM does not exceed 2,000,000,000.  
+   - Handles up to 50 input sets.  
+
+8. **Example Usage (C++):**  
+   ```cpp
+   #include <iostream>
+   using namespace std;
+
+   int compute_gcd(int a, int b) {
+       return b == 0 ? a : compute_gcd(b, a % b);
+   }
+
+   int compute_lcm(int a, int b, int gcd) {
+       return (a / gcd) * b;
+   }
+
+   int main() {
+       int a, b;
+       while (cin >> a >> b) {
+           int gcd = compute_gcd(a, b);
+           int lcm = compute_lcm(a, b, gcd);
+           cout << gcd << "" "" << lcm << endl;
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The **Euclidean algorithm** is efficient for GCD computation with logarithmic time complexity.  
+- **LCM** is derived from GCD to avoid unnecessary recomputation.  
+- The program reads inputs until EOF, making it suitable for multiple test cases.  
+- Constraints ensure no integer overflow occurs with 32-bit integers.  
+
+Would you like any modifications or additional details?"
+42548,4630,s635148400,p00005,u410089258,1469531079,C++,C++,cpp,Accepted,0.0,1212.0,412,1/1,1,s635148400,p00005,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00005/s635148400.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00005.txt,"#include <iostream>
+
+#define CASE double
+
+using namespace std;
+
+int GCD(CASE x, CASE y)
+{
+	if (x == 0 || y == 0)
+		return x + y;
+	else
+	{
+		if (x >= y)
+		{
+			x = x - y;
+			GCD(x, y);
+		}
+		else
+		{
+			y = y - x;
+			GCD(x, y);
+		}
+	}
+}
+
+int main(){
+	CASE a, b;
+	unsigned long int d, l;
+	while (cin >> a >> b){
+
+		d = (unsigned long int)GCD(a, b);
+		l = a * b / d;
+		cout << d << "" "" << l << endl;
+	}
+	return 0;
+}","Here's the code summary for the GCD and LCM problem in the requested format:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name:**  
+   `compute_gcd_lcm`  
+
+2. **Purpose:**  
+   Computes the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two given integers `a` and `b`.  
+
+3. **Inputs:**  
+   - `a` (int): First integer.  
+   - `b` (int): Second integer.  
+
+4. **Outputs:**  
+   - `gcd` (int): The greatest common divisor of `a` and `b`.  
+   - `lcm` (int): The least common multiple of `a` and `b`.  
+
+5. **Key Operations/Logic:**  
+   - Uses the **Euclidean algorithm** to compute GCD recursively.  
+   - Computes LCM using the formula:  
+     \[
+     \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+     \]  
+   - Handles multiple input sets until EOF (End of File).  
+
+6. **Dependencies:**  
+   - None (Standard C/C++ libraries suffice).  
+
+7. **Edge Cases Handled:**  
+   - Ensures `a` and `b` are within the constraint bounds (0 < `a, b` ≤ 2,000,000,000).  
+   - Checks if LCM does not exceed 2,000,000,000.  
+   - Handles up to 50 input sets.  
+
+8. **Example Usage (C++):**  
+   ```cpp
+   #include <iostream>
+   using namespace std;
+
+   int compute_gcd(int a, int b) {
+       return b == 0 ? a : compute_gcd(b, a % b);
+   }
+
+   int compute_lcm(int a, int b, int gcd) {
+       return (a / gcd) * b;
+   }
+
+   int main() {
+       int a, b;
+       while (cin >> a >> b) {
+           int gcd = compute_gcd(a, b);
+           int lcm = compute_lcm(a, b, gcd);
+           cout << gcd << "" "" << lcm << endl;
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The **Euclidean algorithm** is efficient for GCD computation with logarithmic time complexity.  
+- **LCM** is derived from GCD to avoid unnecessary recomputation.  
+- The program reads inputs until EOF, making it suitable for multiple test cases.  
+- Constraints ensure no integer overflow occurs with 32-bit integers.  
+
+Would you like any modifications or additional details?"
+42350,4432,s519140301,p00005,u726778078,1461234274,C++,C++,cpp,Accepted,0.0,1160.0,345,1/1,1,s519140301,p00005,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00005/s519140301.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00005.txt,"#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int Gcd(int a, int b)
+{
+	//??????????????????????????????
+	if (a < b) swap(a, b);
+	if (b == 0) return a;
+	return Gcd(a % b, b);
+}
+
+int main()
+{
+	int a, b;
+	while (cin >> a >> b)
+	{
+		int gcd = Gcd(a, b);
+		int lcm = a / gcd * b;
+		cout << gcd << "" "" << lcm << endl;
+	}
+
+	return 0;
+}","Here's the code summary for the GCD and LCM problem in the requested format:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name:**  
+   `compute_gcd_lcm`  
+
+2. **Purpose:**  
+   Computes the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two given integers `a` and `b`.  
+
+3. **Inputs:**  
+   - `a` (int): First integer.  
+   - `b` (int): Second integer.  
+
+4. **Outputs:**  
+   - `gcd` (int): The greatest common divisor of `a` and `b`.  
+   - `lcm` (int): The least common multiple of `a` and `b`.  
+
+5. **Key Operations/Logic:**  
+   - Uses the **Euclidean algorithm** to compute GCD recursively.  
+   - Computes LCM using the formula:  
+     \[
+     \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+     \]  
+   - Handles multiple input sets until EOF (End of File).  
+
+6. **Dependencies:**  
+   - None (Standard C/C++ libraries suffice).  
+
+7. **Edge Cases Handled:**  
+   - Ensures `a` and `b` are within the constraint bounds (0 < `a, b` ≤ 2,000,000,000).  
+   - Checks if LCM does not exceed 2,000,000,000.  
+   - Handles up to 50 input sets.  
+
+8. **Example Usage (C++):**  
+   ```cpp
+   #include <iostream>
+   using namespace std;
+
+   int compute_gcd(int a, int b) {
+       return b == 0 ? a : compute_gcd(b, a % b);
+   }
+
+   int compute_lcm(int a, int b, int gcd) {
+       return (a / gcd) * b;
+   }
+
+   int main() {
+       int a, b;
+       while (cin >> a >> b) {
+           int gcd = compute_gcd(a, b);
+           int lcm = compute_lcm(a, b, gcd);
+           cout << gcd << "" "" << lcm << endl;
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The **Euclidean algorithm** is efficient for GCD computation with logarithmic time complexity.  
+- **LCM** is derived from GCD to avoid unnecessary recomputation.  
+- The program reads inputs until EOF, making it suitable for multiple test cases.  
+- Constraints ensure no integer overflow occurs with 32-bit integers.  
+
+Would you like any modifications or additional details?"
+41566,3648,s725100535,p00005,u069565074,1410458140,C++,C++11,cpp,Accepted,0.0,1160.0,456,1/1,1,s725100535,p00005,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00005/s725100535.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00005.txt,"#define _CRT_SECURE_NO_WARNINGS
+
+#include<fstream>
+#include<iostream>
+#include<string>
+#include<iomanip>
+#include<list>
+#include<math.h>
+#include<stack>
+#include<queue>
+#include<vector>
+
+using namespace std;
+
+int main(int argc, char **argv){
+	int a, b;
+	while (std::cin >> a >> b) {
+		int tmp_a = a, tmp_b = b;
+		while (a % b != 0) {
+			int tmp = a % b;
+			a = b;
+			b = tmp;
+		}
+		cout << b << "" "" << (tmp_a / b) * (tmp_b / b) * b << endl;
+	}
+	return 0;
+}","Here's the code summary for the GCD and LCM problem in the requested format:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name:**  
+   `compute_gcd_lcm`  
+
+2. **Purpose:**  
+   Computes the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two given integers `a` and `b`.  
+
+3. **Inputs:**  
+   - `a` (int): First integer.  
+   - `b` (int): Second integer.  
+
+4. **Outputs:**  
+   - `gcd` (int): The greatest common divisor of `a` and `b`.  
+   - `lcm` (int): The least common multiple of `a` and `b`.  
+
+5. **Key Operations/Logic:**  
+   - Uses the **Euclidean algorithm** to compute GCD recursively.  
+   - Computes LCM using the formula:  
+     \[
+     \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+     \]  
+   - Handles multiple input sets until EOF (End of File).  
+
+6. **Dependencies:**  
+   - None (Standard C/C++ libraries suffice).  
+
+7. **Edge Cases Handled:**  
+   - Ensures `a` and `b` are within the constraint bounds (0 < `a, b` ≤ 2,000,000,000).  
+   - Checks if LCM does not exceed 2,000,000,000.  
+   - Handles up to 50 input sets.  
+
+8. **Example Usage (C++):**  
+   ```cpp
+   #include <iostream>
+   using namespace std;
+
+   int compute_gcd(int a, int b) {
+       return b == 0 ? a : compute_gcd(b, a % b);
+   }
+
+   int compute_lcm(int a, int b, int gcd) {
+       return (a / gcd) * b;
+   }
+
+   int main() {
+       int a, b;
+       while (cin >> a >> b) {
+           int gcd = compute_gcd(a, b);
+           int lcm = compute_lcm(a, b, gcd);
+           cout << gcd << "" "" << lcm << endl;
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The **Euclidean algorithm** is efficient for GCD computation with logarithmic time complexity.  
+- **LCM** is derived from GCD to avoid unnecessary recomputation.  
+- The program reads inputs until EOF, making it suitable for multiple test cases.  
+- Constraints ensure no integer overflow occurs with 32-bit integers.  
+
+Would you like any modifications or additional details?"
+42532,4614,s207978630,p00005,u496100636,1467724987,C++,C++,cpp,Accepted,0.0,1160.0,372,1/1,1,s207978630,p00005,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00005/s207978630.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00005.txt,"#include <iostream>
+#include <iomanip>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <cmath>
+#define shosu(x) fixed<<setprecision(x)
+using namespace std;
+int gcd(int a,int b){
+	if(b==0) return a;
+	return gcd(b,a%b);
+}
+
+int lcm(int a,int b){
+	return (a/gcd(a,b))*b;
+}
+
+int main(){
+	int x,y;
+	while(cin>>x>>y){
+		cout<<gcd(x,y)<<' '<<lcm(x,y)<<endl;
+	}
+}","Here's the code summary for the GCD and LCM problem in the requested format:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name:**  
+   `compute_gcd_lcm`  
+
+2. **Purpose:**  
+   Computes the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two given integers `a` and `b`.  
+
+3. **Inputs:**  
+   - `a` (int): First integer.  
+   - `b` (int): Second integer.  
+
+4. **Outputs:**  
+   - `gcd` (int): The greatest common divisor of `a` and `b`.  
+   - `lcm` (int): The least common multiple of `a` and `b`.  
+
+5. **Key Operations/Logic:**  
+   - Uses the **Euclidean algorithm** to compute GCD recursively.  
+   - Computes LCM using the formula:  
+     \[
+     \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+     \]  
+   - Handles multiple input sets until EOF (End of File).  
+
+6. **Dependencies:**  
+   - None (Standard C/C++ libraries suffice).  
+
+7. **Edge Cases Handled:**  
+   - Ensures `a` and `b` are within the constraint bounds (0 < `a, b` ≤ 2,000,000,000).  
+   - Checks if LCM does not exceed 2,000,000,000.  
+   - Handles up to 50 input sets.  
+
+8. **Example Usage (C++):**  
+   ```cpp
+   #include <iostream>
+   using namespace std;
+
+   int compute_gcd(int a, int b) {
+       return b == 0 ? a : compute_gcd(b, a % b);
+   }
+
+   int compute_lcm(int a, int b, int gcd) {
+       return (a / gcd) * b;
+   }
+
+   int main() {
+       int a, b;
+       while (cin >> a >> b) {
+           int gcd = compute_gcd(a, b);
+           int lcm = compute_lcm(a, b, gcd);
+           cout << gcd << "" "" << lcm << endl;
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The **Euclidean algorithm** is efficient for GCD computation with logarithmic time complexity.  
+- **LCM** is derived from GCD to avoid unnecessary recomputation.  
+- The program reads inputs until EOF, making it suitable for multiple test cases.  
+- Constraints ensure no integer overflow occurs with 32-bit integers.  
+
+Would you like any modifications or additional details?"
+42667,4749,s836476541,p00005,u294529087,1475839854,C++,C++11,cpp,Accepted,0.0,3004.0,357,1/1,1,s836476541,p00005,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00005/s836476541.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00005.txt,"#include<iostream>
+#include<vector>
+#include<string>
+#include<algorithm>
+#define int long long
+using namespace std;
+
+int gcd(int a, int b) {
+	if (b == 0)return a;
+	return gcd(b, a%b);
+}
+signed main() {
+	vector<int>a(2);
+	while (cin >> a[0] >> a[1]) {
+		sort(a.begin(), a.end());
+		int b = gcd(a[1], a[0]);
+		cout << b << "" "" << a[1] * a[0] / b << endl;
+	}
+}","Here's the code summary for the GCD and LCM problem in the requested format:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name:**  
+   `compute_gcd_lcm`  
+
+2. **Purpose:**  
+   Computes the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two given integers `a` and `b`.  
+
+3. **Inputs:**  
+   - `a` (int): First integer.  
+   - `b` (int): Second integer.  
+
+4. **Outputs:**  
+   - `gcd` (int): The greatest common divisor of `a` and `b`.  
+   - `lcm` (int): The least common multiple of `a` and `b`.  
+
+5. **Key Operations/Logic:**  
+   - Uses the **Euclidean algorithm** to compute GCD recursively.  
+   - Computes LCM using the formula:  
+     \[
+     \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+     \]  
+   - Handles multiple input sets until EOF (End of File).  
+
+6. **Dependencies:**  
+   - None (Standard C/C++ libraries suffice).  
+
+7. **Edge Cases Handled:**  
+   - Ensures `a` and `b` are within the constraint bounds (0 < `a, b` ≤ 2,000,000,000).  
+   - Checks if LCM does not exceed 2,000,000,000.  
+   - Handles up to 50 input sets.  
+
+8. **Example Usage (C++):**  
+   ```cpp
+   #include <iostream>
+   using namespace std;
+
+   int compute_gcd(int a, int b) {
+       return b == 0 ? a : compute_gcd(b, a % b);
+   }
+
+   int compute_lcm(int a, int b, int gcd) {
+       return (a / gcd) * b;
+   }
+
+   int main() {
+       int a, b;
+       while (cin >> a >> b) {
+           int gcd = compute_gcd(a, b);
+           int lcm = compute_lcm(a, b, gcd);
+           cout << gcd << "" "" << lcm << endl;
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The **Euclidean algorithm** is efficient for GCD computation with logarithmic time complexity.  
+- **LCM** is derived from GCD to avoid unnecessary recomputation.  
+- The program reads inputs until EOF, making it suitable for multiple test cases.  
+- Constraints ensure no integer overflow occurs with 32-bit integers.  
+
+Would you like any modifications or additional details?"
+42478,4560,s914238897,p00005,u439031549,1465157926,C++,C++,cpp,Accepted,0.0,1160.0,329,1/1,1,s914238897,p00005,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00005/s914238897.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00005.txt,"#include<iostream>
+#include<algorithm>
+
+using namespace std;
+
+int GCD(int a, int b){
+	if(a < b){
+		swap(a, b);
+	}
+	while(b){
+		a %= b;
+		swap(a, b);
+	}
+	return a;
+}
+
+int LCM(int a, int b){
+	return a / GCD(a, b) * b;
+}
+
+int main(){
+	int a, b;
+	while(cin >> a >> b){
+		cout << GCD(a, b) << ' ' << LCM(a, b) << endl;
+	}
+	return 0;
+}","Here's the code summary for the GCD and LCM problem in the requested format:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name:**  
+   `compute_gcd_lcm`  
+
+2. **Purpose:**  
+   Computes the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two given integers `a` and `b`.  
+
+3. **Inputs:**  
+   - `a` (int): First integer.  
+   - `b` (int): Second integer.  
+
+4. **Outputs:**  
+   - `gcd` (int): The greatest common divisor of `a` and `b`.  
+   - `lcm` (int): The least common multiple of `a` and `b`.  
+
+5. **Key Operations/Logic:**  
+   - Uses the **Euclidean algorithm** to compute GCD recursively.  
+   - Computes LCM using the formula:  
+     \[
+     \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+     \]  
+   - Handles multiple input sets until EOF (End of File).  
+
+6. **Dependencies:**  
+   - None (Standard C/C++ libraries suffice).  
+
+7. **Edge Cases Handled:**  
+   - Ensures `a` and `b` are within the constraint bounds (0 < `a, b` ≤ 2,000,000,000).  
+   - Checks if LCM does not exceed 2,000,000,000.  
+   - Handles up to 50 input sets.  
+
+8. **Example Usage (C++):**  
+   ```cpp
+   #include <iostream>
+   using namespace std;
+
+   int compute_gcd(int a, int b) {
+       return b == 0 ? a : compute_gcd(b, a % b);
+   }
+
+   int compute_lcm(int a, int b, int gcd) {
+       return (a / gcd) * b;
+   }
+
+   int main() {
+       int a, b;
+       while (cin >> a >> b) {
+           int gcd = compute_gcd(a, b);
+           int lcm = compute_lcm(a, b, gcd);
+           cout << gcd << "" "" << lcm << endl;
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The **Euclidean algorithm** is efficient for GCD computation with logarithmic time complexity.  
+- **LCM** is derived from GCD to avoid unnecessary recomputation.  
+- The program reads inputs until EOF, making it suitable for multiple test cases.  
+- Constraints ensure no integer overflow occurs with 32-bit integers.  
+
+Would you like any modifications or additional details?"
+41768,3850,s823968111,p00005,u242796443,1424701063,C++,C++,cpp,Accepted,0.0,1160.0,274,1/1,1,s823968111,p00005,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00005/s823968111.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00005.txt,"#include <iostream>
+#include <cstdio>
+using namespace std;
+
+long int gcd(long int a,long int b){
+    if(!(a%b)) return b;
+    return gcd(b,a%b);
+}
+int main(){
+    long int x,y;
+    while(cin >> x >> y)
+        cout << gcd(x,y) << "" "" << x*y/gcd(x,y) << endl;
+    return 0;
+}","Here's the code summary for the GCD and LCM problem in the requested format:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name:**  
+   `compute_gcd_lcm`  
+
+2. **Purpose:**  
+   Computes the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two given integers `a` and `b`.  
+
+3. **Inputs:**  
+   - `a` (int): First integer.  
+   - `b` (int): Second integer.  
+
+4. **Outputs:**  
+   - `gcd` (int): The greatest common divisor of `a` and `b`.  
+   - `lcm` (int): The least common multiple of `a` and `b`.  
+
+5. **Key Operations/Logic:**  
+   - Uses the **Euclidean algorithm** to compute GCD recursively.  
+   - Computes LCM using the formula:  
+     \[
+     \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+     \]  
+   - Handles multiple input sets until EOF (End of File).  
+
+6. **Dependencies:**  
+   - None (Standard C/C++ libraries suffice).  
+
+7. **Edge Cases Handled:**  
+   - Ensures `a` and `b` are within the constraint bounds (0 < `a, b` ≤ 2,000,000,000).  
+   - Checks if LCM does not exceed 2,000,000,000.  
+   - Handles up to 50 input sets.  
+
+8. **Example Usage (C++):**  
+   ```cpp
+   #include <iostream>
+   using namespace std;
+
+   int compute_gcd(int a, int b) {
+       return b == 0 ? a : compute_gcd(b, a % b);
+   }
+
+   int compute_lcm(int a, int b, int gcd) {
+       return (a / gcd) * b;
+   }
+
+   int main() {
+       int a, b;
+       while (cin >> a >> b) {
+           int gcd = compute_gcd(a, b);
+           int lcm = compute_lcm(a, b, gcd);
+           cout << gcd << "" "" << lcm << endl;
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The **Euclidean algorithm** is efficient for GCD computation with logarithmic time complexity.  
+- **LCM** is derived from GCD to avoid unnecessary recomputation.  
+- The program reads inputs until EOF, making it suitable for multiple test cases.  
+- Constraints ensure no integer overflow occurs with 32-bit integers.  
+
+Would you like any modifications or additional details?"
+42071,4153,s395983913,p00005,u015679854,1439789215,C++,C++,cpp,Accepted,0.0,1024.0,408,1/1,1,s395983913,p00005,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00005/s395983913.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00005.txt,"#include <cstdio>
+
+int main()
+{
+    long a, b;
+    long m, n, temp;
+
+    while (scanf(""%ld %ld"", &a, &b) != EOF) {
+        if (a < b) {
+            temp = a;
+            a = b;
+            b = temp;
+        }
+        m = a;
+        n = b;
+
+        while (n != 0) {
+            temp = n;
+            n = m % n;
+            m = temp;
+        }
+
+        printf(""%ld %ld\n"", m, a / m * b);
+    }
+
+    return 0;
+}","Here's the code summary for the GCD and LCM problem in the requested format:
+
+---
+
+### Code Summary Format  
+
+1. **Function/Method Name:**  
+   `compute_gcd_lcm`  
+
+2. **Purpose:**  
+   Computes the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two given integers `a` and `b`.  
+
+3. **Inputs:**  
+   - `a` (int): First integer.  
+   - `b` (int): Second integer.  
+
+4. **Outputs:**  
+   - `gcd` (int): The greatest common divisor of `a` and `b`.  
+   - `lcm` (int): The least common multiple of `a` and `b`.  
+
+5. **Key Operations/Logic:**  
+   - Uses the **Euclidean algorithm** to compute GCD recursively.  
+   - Computes LCM using the formula:  
+     \[
+     \text{LCM}(a, b) = \frac{|a \times b|}{\text{GCD}(a, b)}
+     \]  
+   - Handles multiple input sets until EOF (End of File).  
+
+6. **Dependencies:**  
+   - None (Standard C/C++ libraries suffice).  
+
+7. **Edge Cases Handled:**  
+   - Ensures `a` and `b` are within the constraint bounds (0 < `a, b` ≤ 2,000,000,000).  
+   - Checks if LCM does not exceed 2,000,000,000.  
+   - Handles up to 50 input sets.  
+
+8. **Example Usage (C++):**  
+   ```cpp
+   #include <iostream>
+   using namespace std;
+
+   int compute_gcd(int a, int b) {
+       return b == 0 ? a : compute_gcd(b, a % b);
+   }
+
+   int compute_lcm(int a, int b, int gcd) {
+       return (a / gcd) * b;
+   }
+
+   int main() {
+       int a, b;
+       while (cin >> a >> b) {
+           int gcd = compute_gcd(a, b);
+           int lcm = compute_lcm(a, b, gcd);
+           cout << gcd << "" "" << lcm << endl;
+       }
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The **Euclidean algorithm** is efficient for GCD computation with logarithmic time complexity.  
+- **LCM** is derived from GCD to avoid unnecessary recomputation.  
+- The program reads inputs until EOF, making it suitable for multiple test cases.  
+- Constraints ensure no integer overflow occurs with 32-bit integers.  
+
+Would you like any modifications or additional details?"
+47583,3730,s840127417,p00006,u222957942,1434464471,C++,C++11,cpp,Accepted,0.0,1200.0,703,1/1,1,s840127417,p00006,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00006/s840127417.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00006.txt,"#include<iostream>
+
+using namespace std;
+
+int main()
+{
+        string input;
+        int num = 0;
+        int i = 0;
+        int count = 0;
+        char temp[1];
+
+        cin >> input;
+        num = input.size();
+        char str[num]; //= input.toCharArray(); 
+
+        sprintf(str,""%s"",input.c_str());
+
+        if(num % 2 == 0)
+        {
+                count = num / 2;
+        }
+        else
+        {
+                count = (num - 1) / 2;
+        }
+
+        for(i = 0;i < count;i++)
+        {
+                temp[0] = str[i];
+                str[i] = str[num -  1 - i];
+                str[num - 1 - i] = temp[0];
+        }
+
+        string output = string(str);
+        cout << output << endl;
+
+}","Here's the code summary for the ""Reverse Sequence"" problem in the requested format:
+
+---
+
+**Code Summary Format**
+
+1. **Function/Method Name**:  
+   `reverse_string`
+
+2. **Purpose**:  
+   Reverses the characters in a given input string.
+
+3. **Inputs**:  
+   - `str` (string): The input string to be reversed (length ≤ 20 characters).
+
+4. **Outputs**:  
+   - `reversed_str` (string): The reversed version of the input string.
+
+5. **Key Operations/Logic**:  
+   - Takes an input string.  
+   - Reverses the order of characters (e.g., ""abc"" becomes ""cba"").  
+   - Returns the reversed string.  
+
+6. **Dependencies**:  
+   - None (standard C/C++ string handling).  
+
+7. **Edge Cases Handled**:  
+   - Empty string input (returns an empty string).  
+   - String length ≤ 20 (as per constraints).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <string>
+   
+   std::string reverse_string(std::string str) {
+       std::reverse(str.begin(), str.end());
+       return str;
+   }
+   
+   int main() {
+       std::string input = ""w32nimda"";
+       std::cout << reverse_string(input) << std::endl; // Output: ""admin23w""
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The problem is straightforward and involves reversing a string of limited length (≤ 20).  
+- In C++, `std::reverse` from `<algorithm>` can be used for simplicity.  
+- In C, manual reversal (e.g., swapping characters from start to end) would be required.  
+- No external dependencies are needed beyond standard libraries.  
+
+Let me know if you'd like additional details or variations (e.g., C implementation)."
+47201,3348,s474599131,p00006,u932506469,1559541239,C++,C++,cpp,Accepted,0.0,3148.0,182,1/1,1,s474599131,p00006,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00006/s474599131.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00006.txt,"#include<iostream>
+
+using namespace std;
+
+int main() {
+	string a= """";
+	cin >> a;
+
+	for(int j = (int)a.size()-1;j>=0;j--){
+		cout << a.substr(j, 1);
+	}
+	cout << endl;
+
+
+	return 0;
+}
+
+","Here's the code summary for the ""Reverse Sequence"" problem in the requested format:
+
+---
+
+**Code Summary Format**
+
+1. **Function/Method Name**:  
+   `reverse_string`
+
+2. **Purpose**:  
+   Reverses the characters in a given input string.
+
+3. **Inputs**:  
+   - `str` (string): The input string to be reversed (length ≤ 20 characters).
+
+4. **Outputs**:  
+   - `reversed_str` (string): The reversed version of the input string.
+
+5. **Key Operations/Logic**:  
+   - Takes an input string.  
+   - Reverses the order of characters (e.g., ""abc"" becomes ""cba"").  
+   - Returns the reversed string.  
+
+6. **Dependencies**:  
+   - None (standard C/C++ string handling).  
+
+7. **Edge Cases Handled**:  
+   - Empty string input (returns an empty string).  
+   - String length ≤ 20 (as per constraints).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <string>
+   
+   std::string reverse_string(std::string str) {
+       std::reverse(str.begin(), str.end());
+       return str;
+   }
+   
+   int main() {
+       std::string input = ""w32nimda"";
+       std::cout << reverse_string(input) << std::endl; // Output: ""admin23w""
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The problem is straightforward and involves reversing a string of limited length (≤ 20).  
+- In C++, `std::reverse` from `<algorithm>` can be used for simplicity.  
+- In C, manual reversal (e.g., swapping characters from start to end) would be required.  
+- No external dependencies are needed beyond standard libraries.  
+
+Let me know if you'd like additional details or variations (e.g., C implementation)."
+48398,4545,s135716955,p00006,u299812236,1506960952,C++,C++,cpp,Accepted,0.0,2524.0,211,1/1,1,s135716955,p00006,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00006/s135716955.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00006.txt,"#include <stdio.h>
+
+int main(void){
+	
+	char a[21],b[21]={'0'};
+	int s,t;
+	
+	scanf(""%s"",a);
+	
+	for(s=0;a[s]!='\0';s++){
+	}
+	
+	for(t=0;a[t]!='\0';t++){
+		
+		b[s-t-1]=a[t];
+		
+	}
+	
+	printf(""%s\n"",b);
+	
+	return 0;
+}","Here's the code summary for the ""Reverse Sequence"" problem in the requested format:
+
+---
+
+**Code Summary Format**
+
+1. **Function/Method Name**:  
+   `reverse_string`
+
+2. **Purpose**:  
+   Reverses the characters in a given input string.
+
+3. **Inputs**:  
+   - `str` (string): The input string to be reversed (length ≤ 20 characters).
+
+4. **Outputs**:  
+   - `reversed_str` (string): The reversed version of the input string.
+
+5. **Key Operations/Logic**:  
+   - Takes an input string.  
+   - Reverses the order of characters (e.g., ""abc"" becomes ""cba"").  
+   - Returns the reversed string.  
+
+6. **Dependencies**:  
+   - None (standard C/C++ string handling).  
+
+7. **Edge Cases Handled**:  
+   - Empty string input (returns an empty string).  
+   - String length ≤ 20 (as per constraints).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <string>
+   
+   std::string reverse_string(std::string str) {
+       std::reverse(str.begin(), str.end());
+       return str;
+   }
+   
+   int main() {
+       std::string input = ""w32nimda"";
+       std::cout << reverse_string(input) << std::endl; // Output: ""admin23w""
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The problem is straightforward and involves reversing a string of limited length (≤ 20).  
+- In C++, `std::reverse` from `<algorithm>` can be used for simplicity.  
+- In C, manual reversal (e.g., swapping characters from start to end) would be required.  
+- No external dependencies are needed beyond standard libraries.  
+
+Let me know if you'd like additional details or variations (e.g., C implementation)."
+48414,4561,s892548005,p00006,u235067248,1510113652,C++,C++,cpp,Accepted,0.0,2944.0,254,1/1,1,s892548005,p00006,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00006/s892548005.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00006.txt,"#include <bits/stdc++.h>
+#include <vector>
+using namespace std;
+
+string ilham, bojos;
+int ndaru;
+int main(){
+	cin >> ilham;
+	ndaru = ilham.length();
+	for(int i = ndaru-1; i >= 0; i--){
+		bojos = bojos + ilham[i];
+	}
+	cout << bojos << ""\n"";
+	
+	return 0;
+}","Here's the code summary for the ""Reverse Sequence"" problem in the requested format:
+
+---
+
+**Code Summary Format**
+
+1. **Function/Method Name**:  
+   `reverse_string`
+
+2. **Purpose**:  
+   Reverses the characters in a given input string.
+
+3. **Inputs**:  
+   - `str` (string): The input string to be reversed (length ≤ 20 characters).
+
+4. **Outputs**:  
+   - `reversed_str` (string): The reversed version of the input string.
+
+5. **Key Operations/Logic**:  
+   - Takes an input string.  
+   - Reverses the order of characters (e.g., ""abc"" becomes ""cba"").  
+   - Returns the reversed string.  
+
+6. **Dependencies**:  
+   - None (standard C/C++ string handling).  
+
+7. **Edge Cases Handled**:  
+   - Empty string input (returns an empty string).  
+   - String length ≤ 20 (as per constraints).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <string>
+   
+   std::string reverse_string(std::string str) {
+       std::reverse(str.begin(), str.end());
+       return str;
+   }
+   
+   int main() {
+       std::string input = ""w32nimda"";
+       std::cout << reverse_string(input) << std::endl; // Output: ""admin23w""
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The problem is straightforward and involves reversing a string of limited length (≤ 20).  
+- In C++, `std::reverse` from `<algorithm>` can be used for simplicity.  
+- In C, manual reversal (e.g., swapping characters from start to end) would be required.  
+- No external dependencies are needed beyond standard libraries.  
+
+Let me know if you'd like additional details or variations (e.g., C implementation)."
+48296,4443,s304521031,p00006,u597207241,1499072834,C++,C++11,cpp,Accepted,0.0,3188.0,870,1/1,1,s304521031,p00006,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00006/s304521031.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00006.txt,"/*
+C++ ???????????????????????????????????¬??????
+??????AOJ-ITP1??????????????????
+*/
+#define _USE_MATH_DEFINES
+
+#include <iostream> // ?¨??????\??????
+#include <fstream>  // ??????????????\??????
+#include <string>   // ???????????¢???
+#include <vector>   // ???????????????
+#include <cmath>    // ??°??????
+#include <iomanip>  // stream???????????¢???
+#include <algorithm>// max??¢??°??????
+
+using std::cin;
+using std::cout;
+using std::endl;
+using std::string;
+using std::vector;        // ????´???°????????????????????????
+using std::fixed;         // ???????????????????¨???????????????????????????????
+using std::setprecision;  // ?????°????°???°?????\???????????°????????????????????¨????????\???
+
+int main() {
+	string a;
+	cin >> a;
+
+	for (size_t i = 1; a.size()-i > 0; i++)
+	{
+		cout << a[a.size() - i];
+	}
+	cout << a[0];
+	cout << endl;
+	return 0;
+}","Here's the code summary for the ""Reverse Sequence"" problem in the requested format:
+
+---
+
+**Code Summary Format**
+
+1. **Function/Method Name**:  
+   `reverse_string`
+
+2. **Purpose**:  
+   Reverses the characters in a given input string.
+
+3. **Inputs**:  
+   - `str` (string): The input string to be reversed (length ≤ 20 characters).
+
+4. **Outputs**:  
+   - `reversed_str` (string): The reversed version of the input string.
+
+5. **Key Operations/Logic**:  
+   - Takes an input string.  
+   - Reverses the order of characters (e.g., ""abc"" becomes ""cba"").  
+   - Returns the reversed string.  
+
+6. **Dependencies**:  
+   - None (standard C/C++ string handling).  
+
+7. **Edge Cases Handled**:  
+   - Empty string input (returns an empty string).  
+   - String length ≤ 20 (as per constraints).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <string>
+   
+   std::string reverse_string(std::string str) {
+       std::reverse(str.begin(), str.end());
+       return str;
+   }
+   
+   int main() {
+       std::string input = ""w32nimda"";
+       std::cout << reverse_string(input) << std::endl; // Output: ""admin23w""
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The problem is straightforward and involves reversing a string of limited length (≤ 20).  
+- In C++, `std::reverse` from `<algorithm>` can be used for simplicity.  
+- In C, manual reversal (e.g., swapping characters from start to end) would be required.  
+- No external dependencies are needed beyond standard libraries.  
+
+Let me know if you'd like additional details or variations (e.g., C implementation)."
+47814,3961,s185228264,p00006,u268155858,1460376186,C++,C++,cpp,Accepted,0.0,1172.0,194,1/1,1,s185228264,p00006,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00006/s185228264.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00006.txt,"#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+  string s;
+  cin>>s;
+  for(string::reverse_iterator r = s.rbegin();r!=s.rend();r++) cout<<*r;
+  cout<<endl;
+  return 0;
+}","Here's the code summary for the ""Reverse Sequence"" problem in the requested format:
+
+---
+
+**Code Summary Format**
+
+1. **Function/Method Name**:  
+   `reverse_string`
+
+2. **Purpose**:  
+   Reverses the characters in a given input string.
+
+3. **Inputs**:  
+   - `str` (string): The input string to be reversed (length ≤ 20 characters).
+
+4. **Outputs**:  
+   - `reversed_str` (string): The reversed version of the input string.
+
+5. **Key Operations/Logic**:  
+   - Takes an input string.  
+   - Reverses the order of characters (e.g., ""abc"" becomes ""cba"").  
+   - Returns the reversed string.  
+
+6. **Dependencies**:  
+   - None (standard C/C++ string handling).  
+
+7. **Edge Cases Handled**:  
+   - Empty string input (returns an empty string).  
+   - String length ≤ 20 (as per constraints).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <string>
+   
+   std::string reverse_string(std::string str) {
+       std::reverse(str.begin(), str.end());
+       return str;
+   }
+   
+   int main() {
+       std::string input = ""w32nimda"";
+       std::cout << reverse_string(input) << std::endl; // Output: ""admin23w""
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The problem is straightforward and involves reversing a string of limited length (≤ 20).  
+- In C++, `std::reverse` from `<algorithm>` can be used for simplicity.  
+- In C, manual reversal (e.g., swapping characters from start to end) would be required.  
+- No external dependencies are needed beyond standard libraries.  
+
+Let me know if you'd like additional details or variations (e.g., C implementation)."
+47526,3673,s033206048,p00006,u542962065,1432253745,C++,C++,cpp,Accepted,0.0,1172.0,405,1/1,1,s033206048,p00006,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00006/s033206048.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00006.txt,"#include ""bits/stdc++.h""
+
+using namespace std;
+
+typedef vector<int> vi;
+typedef pair<int,int> pii;
+typedef long long ll;
+
+#define dump(x)  cerr << #x << "" = "" << (x) << endl
+#define rep(i,n) for(int i=0;i<(n);i++)
+#define all(a)  (a).begin(),(a).end()
+#define pb push_back
+
+int main(){
+    string s;
+    cin>>s;
+    for(int i=s.size()-1;i>=0;i--){
+        cout<<s[i];
+    }
+    cout<<endl;
+    return 0;
+}","Here's the code summary for the ""Reverse Sequence"" problem in the requested format:
+
+---
+
+**Code Summary Format**
+
+1. **Function/Method Name**:  
+   `reverse_string`
+
+2. **Purpose**:  
+   Reverses the characters in a given input string.
+
+3. **Inputs**:  
+   - `str` (string): The input string to be reversed (length ≤ 20 characters).
+
+4. **Outputs**:  
+   - `reversed_str` (string): The reversed version of the input string.
+
+5. **Key Operations/Logic**:  
+   - Takes an input string.  
+   - Reverses the order of characters (e.g., ""abc"" becomes ""cba"").  
+   - Returns the reversed string.  
+
+6. **Dependencies**:  
+   - None (standard C/C++ string handling).  
+
+7. **Edge Cases Handled**:  
+   - Empty string input (returns an empty string).  
+   - String length ≤ 20 (as per constraints).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <string>
+   
+   std::string reverse_string(std::string str) {
+       std::reverse(str.begin(), str.end());
+       return str;
+   }
+   
+   int main() {
+       std::string input = ""w32nimda"";
+       std::cout << reverse_string(input) << std::endl; // Output: ""admin23w""
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The problem is straightforward and involves reversing a string of limited length (≤ 20).  
+- In C++, `std::reverse` from `<algorithm>` can be used for simplicity.  
+- In C, manual reversal (e.g., swapping characters from start to end) would be required.  
+- No external dependencies are needed beyond standard libraries.  
+
+Let me know if you'd like additional details or variations (e.g., C implementation)."
+48729,4876,s999045003,p00006,u211630862,1315469896,C++,C++,cpp,Accepted,0.0,0.0,181,,1,s999045003,p00006,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00006/s999045003.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00006.txt,"#include <iostream>
+using namespace std;
+
+int main() {
+	char str[21] = """";
+
+	cin>>str;
+
+	for (int i=19;i>=0;i--) {
+		if (str[i]!=NULL)
+			cout<<str[i];
+	}
+	cout<<endl;
+
+	return 0;
+}","Here's the code summary for the ""Reverse Sequence"" problem in the requested format:
+
+---
+
+**Code Summary Format**
+
+1. **Function/Method Name**:  
+   `reverse_string`
+
+2. **Purpose**:  
+   Reverses the characters in a given input string.
+
+3. **Inputs**:  
+   - `str` (string): The input string to be reversed (length ≤ 20 characters).
+
+4. **Outputs**:  
+   - `reversed_str` (string): The reversed version of the input string.
+
+5. **Key Operations/Logic**:  
+   - Takes an input string.  
+   - Reverses the order of characters (e.g., ""abc"" becomes ""cba"").  
+   - Returns the reversed string.  
+
+6. **Dependencies**:  
+   - None (standard C/C++ string handling).  
+
+7. **Edge Cases Handled**:  
+   - Empty string input (returns an empty string).  
+   - String length ≤ 20 (as per constraints).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <string>
+   
+   std::string reverse_string(std::string str) {
+       std::reverse(str.begin(), str.end());
+       return str;
+   }
+   
+   int main() {
+       std::string input = ""w32nimda"";
+       std::cout << reverse_string(input) << std::endl; // Output: ""admin23w""
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The problem is straightforward and involves reversing a string of limited length (≤ 20).  
+- In C++, `std::reverse` from `<algorithm>` can be used for simplicity.  
+- In C, manual reversal (e.g., swapping characters from start to end) would be required.  
+- No external dependencies are needed beyond standard libraries.  
+
+Let me know if you'd like additional details or variations (e.g., C implementation)."
+48576,4723,s271451911,p00006,u146477988,1530533134,C++,C++,cpp,Accepted,0.0,3152.0,201,1/1,1,s271451911,p00006,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00006/s271451911.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00006.txt,"#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+	string s;
+	int i;
+	cin >> s;
+	for (i = 0; s[i + 1] != 0; i++);
+	for (; i >= 0; i--)
+		cout << s[i];
+	cout << endl;
+	return 0;
+}
+","Here's the code summary for the ""Reverse Sequence"" problem in the requested format:
+
+---
+
+**Code Summary Format**
+
+1. **Function/Method Name**:  
+   `reverse_string`
+
+2. **Purpose**:  
+   Reverses the characters in a given input string.
+
+3. **Inputs**:  
+   - `str` (string): The input string to be reversed (length ≤ 20 characters).
+
+4. **Outputs**:  
+   - `reversed_str` (string): The reversed version of the input string.
+
+5. **Key Operations/Logic**:  
+   - Takes an input string.  
+   - Reverses the order of characters (e.g., ""abc"" becomes ""cba"").  
+   - Returns the reversed string.  
+
+6. **Dependencies**:  
+   - None (standard C/C++ string handling).  
+
+7. **Edge Cases Handled**:  
+   - Empty string input (returns an empty string).  
+   - String length ≤ 20 (as per constraints).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <string>
+   
+   std::string reverse_string(std::string str) {
+       std::reverse(str.begin(), str.end());
+       return str;
+   }
+   
+   int main() {
+       std::string input = ""w32nimda"";
+       std::cout << reverse_string(input) << std::endl; // Output: ""admin23w""
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The problem is straightforward and involves reversing a string of limited length (≤ 20).  
+- In C++, `std::reverse` from `<algorithm>` can be used for simplicity.  
+- In C, manual reversal (e.g., swapping characters from start to end) would be required.  
+- No external dependencies are needed beyond standard libraries.  
+
+Let me know if you'd like additional details or variations (e.g., C implementation)."
+47687,3834,s135320854,p00006,u702328791,1442844881,C++,C++,cpp,Accepted,0.0,900.0,176,1/1,1,s135320854,p00006,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet_C++1000/p00006/s135320854.cpp,/home/profniggastein/PycharmProjects/ReducedDataset/Project_CodeNet/problem_descriptionstext/p00006.txt,"#include<stdio.h>
+int main(){
+int i;
+char str[21];
+for(i=0;;i++){
+str[i]=getchar();
+if(str[i]=='\n')
+	break;
+}
+for(;i>0;i--){
+printf(""%c"",str[i-1]);
+}
+printf(""\n"");
+return 0;
+}","Here's the code summary for the ""Reverse Sequence"" problem in the requested format:
+
+---
+
+**Code Summary Format**
+
+1. **Function/Method Name**:  
+   `reverse_string`
+
+2. **Purpose**:  
+   Reverses the characters in a given input string.
+
+3. **Inputs**:  
+   - `str` (string): The input string to be reversed (length ≤ 20 characters).
+
+4. **Outputs**:  
+   - `reversed_str` (string): The reversed version of the input string.
+
+5. **Key Operations/Logic**:  
+   - Takes an input string.  
+   - Reverses the order of characters (e.g., ""abc"" becomes ""cba"").  
+   - Returns the reversed string.  
+
+6. **Dependencies**:  
+   - None (standard C/C++ string handling).  
+
+7. **Edge Cases Handled**:  
+   - Empty string input (returns an empty string).  
+   - String length ≤ 20 (as per constraints).  
+
+8. **Example Usage (C++)**:  
+   ```cpp
+   #include <iostream>
+   #include <algorithm>
+   #include <string>
+   
+   std::string reverse_string(std::string str) {
+       std::reverse(str.begin(), str.end());
+       return str;
+   }
+   
+   int main() {
+       std::string input = ""w32nimda"";
+       std::cout << reverse_string(input) << std::endl; // Output: ""admin23w""
+       return 0;
+   }
+   ```
+
+---
+
+### Notes:
+- The problem is straightforward and involves reversing a string of limited length (≤ 20).  
+- In C++, `std::reverse` from `<algorithm>` can be used for simplicity.  
+- In C, manual reversal (e.g., swapping characters from start to end) would be required.  
+- No external dependencies are needed beyond standard libraries.  
+
+Let me know if you'd like additional details or variations (e.g., C implementation)."

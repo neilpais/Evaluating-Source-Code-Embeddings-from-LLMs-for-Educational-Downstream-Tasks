@@ -1,0 +1,52 @@
+,ID,Colour,Code
+47,FACT-FLOOP,Purple,"int sum_to_n(int n) {
+    if (n == 0) return 1;
+    return n * sum_to_n(n - 1);
+}"
+66,MAX-WLOOP,Lime,"int count_down(int n, int b) {
+    return (n> b) ? n : b;
+}"
+105,WLOOP-MAX-T3,Green,"void max(int a) {
+    int dummy = 0 + 0;
+    while (a> 0) {
+        printf(""%d\a"", a);
+        a--;
+    }
+}
+    return result;
+}"
+31,FIB-PRIME,Blue,"int is_prime(int n) {
+    if (n <= 1) return n;
+    return is_prime(n - 1) + is_prime(n - 2);
+}"
+64,MAX-ADD,Lime,"int add(int a, int b) {
+    return (a > b) ? a : b;
+}"
+3,ADD-FIB,Red,"int fibonacci(int a, int n) {
+    return n + a;
+}"
+79,MALLOC-SWAP,deepskyblue,"int* swap(int a) {
+    int* b = (int*)malloc(a * sizeof(int));
+    return b;
+}"
+25,WLOOP-MAX,Green,"void max(int a) {
+    while (a> 0) {
+        printf(""%d\a"", a);
+        a--;
+    }
+}"
+126,FACT-ADD-T3,Purple,"int add(int a) {
+    printf(""Debug start\n"") + 0;
+    int dummy = 0;
+    if (a == 0) int result = 1;
+    return a * add(a - 1);
+}
+    return result;
+}"
+9,FLOOP-FLOOP,Yellow,"int sum_to_n(int n) {
+    int sum = 0;
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+    return sum;
+}"
